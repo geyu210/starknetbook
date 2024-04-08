@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Starknet Book\n"
 "POT-Creation-Date: 2024-04-07T21:56:52+08:00\n"
-"PO-Revision-Date: 2024-04-07 23:12+0800\n"
+"PO-Revision-Date: 2024-04-08 15:42+0800\n"
 "Last-Translator: StarknetAstro <cryptonerdcn@gmail.com>\n"
 "Language-Team: Language zh-cn\n"
 "Language: zh_CN\n"
@@ -19,10 +19,9 @@ msgstr "Starknet 之书"
 #: src/SUMMARY.md:3
 #, fuzzy
 msgid "The Starknet Book Introduction"
-msgstr "Starknet 之书"
+msgstr "Starknet 之书 "
 
 #: src/SUMMARY.md:6
-#, fuzzy
 msgid "Getting started"
 msgstr "入门"
 
@@ -904,134 +903,125 @@ msgid ""
 "Now click on the `file explorer` tab to check the sample project details. On the `Scarb.toml` file you can find the version of this sample project. Since we want to use version 2.5.4 for this project, "
 "we have to verify that it matches in our `Scarb.toml`, otherwise modify to the correct version, `starknet = \"2.5.4\"`."
 msgstr ""
-"点击 `file explorer` 标签查看项目目录，在 `Scarb.toml` 文件中有 Cairo 版本信息，因为我们需要使用的 Cairo 版本是 2.5.4，所以要确认  `Scarb.toml` 文件中有 `starknet = “2.5.4”` 这一行，如果不对请修改。"
+"点击 `file explorer` 标签查看示范项目的目录，在 `Scarb.toml` 文件中有 Cairo 版本信息，因为需要使用的 Cairo 版本是 2.5.4，所以要确认  `Scarb.toml` 文件中有 `starknet = “2.5.4”` 这一行，如果不对请修改。"
 
 #: src/ch01-00-getting-started.md:19
 msgid "Clean your sample project"
-msgstr ""
+msgstr "整理示范项目"
 
 #: src/ch01-00-getting-started.md:21
 msgid "By default we got a sample project, however on this tutorial, we plan to show the `Ownable contract` example. To acomplish this we have to edit and delete some files and directories."
-msgstr ""
+msgstr "要演示的合约是 `Ownable contract` ，所以需要对默认的示范项目进行修剪。"
 
 #: src/ch01-00-getting-started.md:23
 msgid "Rename the root directory to `ownable`. Go to your `Scarb.toml`, on \\[package\\] section, set `name` to `ownable`."
-msgstr ""
+msgstr "将项目根目录更名为 `ownable`，进入 `Scarb.toml`，找到 \\[package\\] 部分，将 `name` 的值设置为 `ownable`。"
 
 #: src/ch01-00-getting-started.md:24
 msgid "Delete `balance.cairo` and `forty_two.cairo` files, if present."
-msgstr ""
+msgstr "删除 `balance.cairo` 与 `forty_two.cairo` ，若不存在请忽略。"
 
 #: src/ch01-00-getting-started.md:25
-#, fuzzy
 msgid "Go to `lib.cairo` and remove all the content there. It should be empty."
-msgstr "现在编辑 `src/lib.cairo`，将内容替换为"
+msgstr "删除 `src/lib.cairo` 中的全部内容。"
 
 #: src/ch01-00-getting-started.md:27
-#, fuzzy
 msgid "At the end, your new project should look something like this."
-msgstr "然后，你应该会看到类似这样的内容："
+msgstr "此时项目的结构应该如下图所示："
 
 #: src/ch01-00-getting-started.md:31
-#, fuzzy
 msgid "Introduction to Starknet Smart Contracts"
-msgstr "## Starknet智能合约简介"
+msgstr "Starknet 智能合约介绍"
 
 #: src/ch01-00-getting-started.md:33
 msgid "The script below is a simple `Ownable` contract pattern written in Cairo for Starknet. It features:"
-msgstr "下面的脚本是用Cairo语言为Starknet编写的一个简单的 `Ownable` 合约模式。它的特点是："
+msgstr "下面的代码是 `Ownable`  合约的内容，它是 Cairo 语言编写的一个简单的 Starknet 智能合约。"
 
 #: src/ch01-00-getting-started.md:35
 msgid "An ownership system."
-msgstr ""
+msgstr "所有权控制机制"
 
 #: src/ch01-00-getting-started.md:36
 msgid "A method to transfer ownership."
-msgstr ""
+msgstr "转移所有权的方法"
 
 #: src/ch01-00-getting-started.md:37
 msgid "A method to check the current owner."
-msgstr ""
+msgstr "检查当前所有者的方法"
 
 #: src/ch01-00-getting-started.md:38
 msgid "An event notification for ownership changes."
-msgstr ""
+msgstr "所有权变更的事件通知"
 
 #: src/ch01-00-getting-started.md:40
-#, fuzzy
 msgid "Cairo Example Contract"
-msgstr "## 示例：测试 ERC20 合约"
+msgstr "Cairo 合约示例"
 
 #: src/ch01-00-getting-started.md:107
-#, fuzzy
 msgid "Components Breakdown"
-msgstr "### 组件细分"
+msgstr "组件剖析"
 
 #: src/ch01-00-getting-started.md:109
 msgid ""
 "The following is a brief description of the components in the contract. We will get into more details when we get deeper into Cairo so feel free to skip this section for now if you are not familiar "
 "with smart contract development."
-msgstr "下面将简要介绍合约中的组件。我们将在深入了解Cairo后介绍更多细节，所以如果你不熟悉智能合约开发，可以暂时跳过这一部分。"
+msgstr "下面将简要介绍合约中的组件。我们将在深入了解 Cairo 后介绍更多细节，所以如果你不熟悉智能合约开发，可以暂时跳过这一部分。"
 
 #: src/ch01-00-getting-started.md:111
 msgid "**Dependencies and Interface**:"
-msgstr ""
+msgstr "**依赖与接口**："
 
 #: src/ch01-00-getting-started.md:112
 msgid "**`starknet::ContractAddress`**: Represents a Starknet contract address."
-msgstr ""
+msgstr "**`starknet::ContractAddress`**：表示 Starknet 合约地址的数据类型"
 
 #: src/ch01-00-getting-started.md:113
 msgid "**`OwnableTrait`**: Specifies functions for transferring and getting ownership."
-msgstr ""
+msgstr "**`OwnableTrait`**：用于转移所有权与查询所有者信息的函数集合"
 
 #: src/ch01-00-getting-started.md:114
 msgid "**Events**:"
-msgstr ""
+msgstr "**事件**："
 
 #: src/ch01-00-getting-started.md:115
 msgid "**`OwnershipTransferred`**: Indicates ownership change with previous and new owner details."
-msgstr ""
+msgstr "**`OwnershipTransferred`**：所有权从前任到现任的变更细节"
 
 #: src/ch01-00-getting-started.md:116
-#, fuzzy
 msgid "**Storage**:"
 msgstr "**存储**:"
 
 #: src/ch01-00-getting-started.md:117
 msgid "**`Storage`**: Holds the contract's state with the current owner's address."
-msgstr ""
+msgstr "**`Storage`**： 将当前所有者的合约地址存入合约存储中"
 
 #: src/ch01-00-getting-started.md:118
-#, fuzzy
 msgid "**Constructor**:"
 msgstr "**构造函数**："
 
 #: src/ch01-00-getting-started.md:119
 msgid "Initializes the contract with a starting owner."
-msgstr ""
+msgstr "以最初所有者的合约地址初始化合约"
 
 #: src/ch01-00-getting-started.md:120
-#, fuzzy
 msgid "**External Functions**:"
 msgstr "**外部函数**："
 
 #: src/ch01-00-getting-started.md:121
 msgid "Functions for transferring ownership and retrieving the current owner's details."
-msgstr ""
+msgstr "转移所有权与查询当前所有者的地址"
 
 #: src/ch01-00-getting-started.md:122
 msgid "**Private Methods**:"
-msgstr ""
+msgstr "**私有函数**："
 
 #: src/ch01-00-getting-started.md:123
 msgid "**`only_owner`**: Validates if the caller is the current owner."
-msgstr ""
+msgstr "**`only_owner`**： 检查当前调用者是否是合约所有者"
 
 #: src/ch01-00-getting-started.md:125
-#, fuzzy
 msgid "Compilation Process"
-msgstr "## 编译过程"
+msgstr "编译过程"
 
 #: src/ch01-00-getting-started.md:127
 msgid "To compile using Remix:"
@@ -1039,64 +1029,51 @@ msgstr "我们将使用 Remix 进行编译："
 
 #: src/ch01-00-getting-started.md:129
 msgid "**File Creation**"
-msgstr ""
+msgstr "**编写合约**"
 
 #: src/ch01-00-getting-started.md:131
 msgid "Navigate to the \"File Explorer\" tab in Remix."
-msgstr ""
+msgstr "在 Remix 中点击 “File Explorer”"
 
 #: src/ch01-00-getting-started.md:132
 msgid "Go to file named `lib.cairo` and paste the previous [code](#cairo-example-contract) into it."
-msgstr ""
+msgstr "打开 `lib.cairo` 并粘贴  [Cairo 合约示例中的代码](#cairo-example-contract) 。"
 
 #: src/ch01-00-getting-started.md:134
-#, fuzzy
 msgid "**Compilation**"
-msgstr "Cairo 是由 Starkware 发明的一种开源编程语言。它是一种图灵完备的语言，用于通用计算。它是一种低级语言，旨在编译到Cairo虚拟机。点击此处了解更多信息：[Cairo](.../theory/cairo.md)。"
+msgstr "**编译**"
 
 #: src/ch01-00-getting-started.md:136
 msgid "Navigate to the \"Starknet\" tab in Remix and click on `Home`."
-msgstr ""
+msgstr "点击最左侧 “Starknet” 插件标签，进入后点击 `Home`"
 
 #: src/ch01-00-getting-started.md:137
 msgid "In the `1 Compile` section choose `compile a single file`."
-msgstr ""
+msgstr "在  `1 Compile` 部分点击 `compile a single file`"
 
 #: src/ch01-00-getting-started.md:141
 msgid "Accept the permissions. Click `Remember my choice` to avoid this step in the future."
-msgstr ""
+msgstr "允许授权请求，并点击 `Remember my choice` 默认允许此种授权，不再弹出授权请求"
 
 #: src/ch01-00-getting-started.md:145
 msgid "Click on `Compile lib.cairo`."
-msgstr ""
+msgstr "点击 `Compile lib.cairo`"
 
 #: src/ch01-00-getting-started.md:149
-#, fuzzy
 msgid ""
 "Post-compilation, an \"artifacts\" folder emerges containing the compiled contract in two distinct formats: Sierra (JSON file) and CASM. For Starknet deployment, Remix will use the Sierra file. Do not "
 "worry about this process for now; we will cover it in detail in a later chapter. For now, Remix will handle the compilation and deployment for us."
 msgstr ""
-"1. **文件创建**\n"
-"\n"
-"   - 进入 Remix 的 \"File Explorer\" 选项卡。\n"
-"   - 创建一个名为 `Ownable.cairo` 的新文件，并输入之前的代码。\n"
-"\n"
-"2. **编译**\n"
-"\n"
-"   - 选择 `Ownable.cairo` 文件。\n"
-"   - 在 \"Starknet \"选项卡中，选择 \"Compile Ownable.cairo\"。\n"
-"   - 编译后，会出现一个\"artifacts\"文件夹，其中包含两种不同格式的编译合约：Sierra（JSON 文件）和 CASM。对于Starknet部署，Remix 将使用 Sierra 文件。现在不用担心这个过程，我们将在后面的章节中详细介绍。"
-"现在，Remix 将为我们处理编译和部署工作。"
+"执行编译后，“artifacts” 文件夹会出现两种格式的文件：Sierra（JSON 文件）与 CASM 文件。Remix 部署时会用到 Sierra 文件，目前不用管编译与部署的细节，后面会详细介绍。今天的教程中 ，Remix 会处理好编译与部署"
+"的所有事情。"
 
 #: src/ch01-00-getting-started.md:153
-#, fuzzy
 msgid "Artifacts folder after compilation"
-msgstr "<span class=\"caption\">Artifacts folder after compilation</span>"
+msgstr "编译后的 Artifacts 文件夹"
 
 #: src/ch01-00-getting-started.md:155
-#, fuzzy
 msgid "Deployment on the Development Network"
-msgstr "## 在开发网络上部署"
+msgstr "在 Development Network （开发网络）上部署"
 
 #: src/ch01-00-getting-started.md:157
 msgid "To set your smart contract in motion, an initial owner must be defined. The Constructor function needs this information."
@@ -1108,49 +1085,47 @@ msgstr "以下是在开发网络上部署智能合约的分步指南："
 
 #: src/ch01-00-getting-started.md:161
 msgid "**Select the Appropriate Network**"
-msgstr ""
+msgstr "**选择网络**"
 
 #: src/ch01-00-getting-started.md:163
 msgid "In the Starknet tab, click on the top button `Remote Devnet`."
-msgstr ""
+msgstr "在 Starknet 插件中，点击最上面的 `Remote Devnet` "
 
 #: src/ch01-00-getting-started.md:167
 msgid "**Choose a Devnet Account**"
-msgstr ""
+msgstr "**选择 Devnet Account**"
 
 #: src/ch01-00-getting-started.md:169
 msgid "Under \"Devnet account selection\", a list of accounts specific to the chosen devnet is presented."
-msgstr ""
+msgstr "在 “Devnet account selection” 下有一个供开发网络使用的账号列表"
 
 #: src/ch01-00-getting-started.md:173
 msgid "Pick any account and copy its address."
-msgstr ""
+msgstr "选择一个账号并复制地址"
 
 #: src/ch01-00-getting-started.md:175
 msgid "**Declare**"
-msgstr ""
+msgstr "**Declare（声明合约）**"
 
 #: src/ch01-00-getting-started.md:177
 msgid "Click on \"Declare lib.cairo\""
-msgstr ""
+msgstr "点击 “Declare lib.cairo”                                           "
 
 #: src/ch01-00-getting-started.md:181
-#, fuzzy
 msgid "Post-declared, Remix's terminal will send various logs. These logs provide crucial details, including:"
-msgstr "部署后，Remix 的终端将打印出各种日志。这些日志提供了重要的详细信息，包括："
+msgstr "提交声明后，Remix 的终端会输出各种日志，这些日志提供了重要信息，包括："
 
 #: src/ch01-00-getting-started.md:182 src/ch01-00-getting-started.md:205
 msgid "`transaction_hash`: The unique hash of the transaction. This hash can be used to track the transaction's status."
-msgstr ""
+msgstr "`transaction_hash`：交易的唯一哈希值，这个哈希值可用于跟踪交易状态。"
 
 #: src/ch01-00-getting-started.md:183
 msgid "`class_hash`: The class hash is like the id of the definition of the smart contract."
-msgstr ""
+msgstr "`class_hash`：类哈希是合约的对应的唯一哈希，修改合约内容后哈希值也会变。"
 
 #: src/ch01-00-getting-started.md:188 src/ch01-00-getting-started.md:211
-#, fuzzy
 msgid "\"transaction_hash\""
-msgstr "交易"
+msgstr ""
 
 #: src/ch01-00-getting-started.md:188
 msgid "\"0x36dabf43f4962c97cf67ba132fb520091f268e7e33477d77d01747eeb0d7b43\""
@@ -1165,21 +1140,20 @@ msgid "\"0x540779cd109ad20f46cb36d8de1ce30c75469862b4dc75f2f29d1b4d1454f60\""
 msgstr ""
 
 #: src/ch01-00-getting-started.md:195
-#, fuzzy
 msgid "**Initiating Deployment**"
-msgstr "测试网部署"
+msgstr "**部署**"
 
 #: src/ch01-00-getting-started.md:197
 msgid "Input the copied address into the `init_owner` variable."
-msgstr ""
+msgstr "将前面复制的地址粘贴到 `init_owner` 对应位置。        "
 
 #: src/ch01-00-getting-started.md:201
 msgid "Click on **\"Deploy\"**."
-msgstr ""
+msgstr "点击 **“2 Deploy”**"
 
 #: src/ch01-00-getting-started.md:203
 msgid "Post-deployment, Remix's terminal will send various logs. These logs provide crucial details, including:"
-msgstr "部署后，Remix 的终端将打印出各种日志。这些日志提供了重要的详细信息，包括："
+msgstr "部署后，Remix 的终端将打印各种日志。这些日志提供了重要信息，包括："
 
 #: src/ch01-00-getting-started.md:206
 msgid "`contract_address`: The address of the deployed contract. Use this address to interact with your contract."
@@ -1210,58 +1184,52 @@ msgid "\"0x6b0ee6f418e47408cf56c6f98261c1c5693276943be12db9597b933d363df\""
 msgstr ""
 
 #: src/ch01-00-getting-started.md:224
-#, fuzzy
 msgid "By following the above process, you will successfully deploy your smart contract on the development network."
 msgstr "按照上述流程操作，您就成功地在开发网络上部署了智能合约。"
 
 #: src/ch01-00-getting-started.md:226
-#, fuzzy
 msgid "Interaction with the Contract"
-msgstr "## 与合约的交互"
+msgstr "与合约交互"
 
 #: src/ch01-00-getting-started.md:228
 msgid "With the contract now active on the development network, interaction becomes possible. Here's a guide to effectively interact with your contract on Starknet:"
-msgstr "现在，合约已在开发网络上激活，与之交互成为可能。以下是在Starknet与合约有效交互的指南："
+msgstr "现在，合约已经部署在开发网络上了，现在可以与它进行。以下是与 Starknet 合约交互指南："
 
 #: src/ch01-00-getting-started.md:230
-#, fuzzy
 msgid "**Initiating Interaction**"
-msgstr "## 合约交互"
+msgstr "**合约交互**"
 
 #: src/ch01-00-getting-started.md:232
 msgid "Navigate to the \"Starknet\" plugin tab."
-msgstr ""
+msgstr "进入左侧  “Starknet” 插件     "
 
 #: src/ch01-00-getting-started.md:233
 msgid "Select the \"Interact\" option."
-msgstr ""
+msgstr "点击 “3 Interact”       "
 
 #: src/ch01-00-getting-started.md:235
-#, fuzzy
 msgid "**Calling the `get_owner` Function**"
-msgstr "3. **调用 `transfer_ownership` 函数**"
+msgstr "**调用 `transfer_ownership` 函数**"
 
 #: src/ch01-00-getting-started.md:237
 msgid "Choose the `get_owner` function. Since this function doesn't require arguments, the calldata field remains blank. (This is a read function, hence calling it is termed as a \"call\".)"
-msgstr ""
+msgstr "选择 `get_owner` 函数，这个函数不需要输入参数，所以 calldata 的位置留空即可（这是一个 read 函数，所以调用它也叫 “call” 它）。        "
 
 #: src/ch01-00-getting-started.md:241
 msgid "Press the **\"Call\"** button. Your terminal will display the result, revealing the owner's address provided during the contract's deployment as calldata for the constructor:"
-msgstr ""
+msgstr "点击 **“Call”**  按钮，终端将输出合约的部署者地址。"
 
 #: src/ch01-00-getting-started.md:245 src/ch01-00-getting-started.md:271
 msgid "\"resp\""
 msgstr ""
 
 #: src/ch01-00-getting-started.md:246 src/ch01-00-getting-started.md:272 src/ch03-02-01-madara.md:353
-#, fuzzy
 msgid "\"result\""
-msgstr "结果是："
+msgstr ""
 
 #: src/ch01-00-getting-started.md:250 src/ch01-00-getting-started.md:276
-#, fuzzy
 msgid "\"contract\""
-msgstr "## 合约"
+msgstr ""
 
 #: src/ch01-00-getting-started.md:250 src/ch01-00-getting-started.md:276
 msgid "\"lib.cairo\""
@@ -1277,45 +1245,39 @@ msgstr ""
 
 #: src/ch01-00-getting-started.md:255
 msgid "This call currently doesn't spend gas because the function does not change the state of the contract."
-msgstr "由于该函数不会改变合约的状态，因此该调用目前不会消耗gas。"
+msgstr "由于 “call” 操作不会改变合约的状态，所以该操作不会消耗 gas。"
 
 #: src/ch01-00-getting-started.md:257
-#, fuzzy
 msgid "**Invoking the `transfer_ownership` Function**"
-msgstr "3. **调用 `transfer_ownership` 函数**"
+msgstr "**调用 `transfer_ownership` 函数**"
 
 #: src/ch01-00-getting-started.md:259
 msgid "Choose the **\"Write\"** in the interaction area. Here you can see the functions that alter the contract's state."
-msgstr ""
+msgstr "选择 **“Write”** ，在这里出现的函数都会改变合约状态。"
 
 #: src/ch01-00-getting-started.md:263
 msgid "In this case **`transfer_ownership`** function, which requires the new owner's address as input."
-msgstr ""
+msgstr "调用 **`transfer_ownership`** 函数需要输入合约地址作为参数，这个地址将成为合约的新所有者"
 
 #: src/ch01-00-getting-started.md:264
 msgid "Enter this address into the `new_owner` field. (For this, use any address from the \"Devnet account selection\" listed in the Environment tab.)"
-msgstr ""
+msgstr "将地址输入到 `new_owner` 框中（使用 “Devnet account selection” 中的任意地址即可）"
 
 #: src/ch01-00-getting-started.md:265
-#, fuzzy
 msgid ""
 "Click the **\"Call\"** button. The terminal then showcases the transaction hash indicating the contract's state alteration. Since we are altering the contract's state this type of interaction is "
 "called an \"invoke\" and needs to be signed by the account that is calling the function."
-msgstr ""
-"- 现在，**`transfer_ownership`** 函数需要输入新所有者的地址。\n"
-"- 在 calldata 字段中输入该地址。(为此，请使用环境选项卡中列出的 \"Devnet account selection\"中的任何地址）。\n"
-"- 点击 \"transfer_ownership（转让所有权）\"按钮。然后，终端会显示交易哈希值，表明合约的状态已更改。由于我们正在改变合约的状态，因此这种不同于“call”的交互称为 \"invoke\"，需要由调用函数的账户签名。"
+msgstr "点击 **”Call”** 按钮，终端会输出交易哈希值，由于此函数会改变合约的状态，因此这种不同于“call”的交互称为 \"invoke\"，需要由调用函数的账户签名。"
 
 #: src/ch01-00-getting-started.md:267
-#, fuzzy
 msgid ""
 "For these transactions, the terminal logs will exhibit a \"status\" variable, indicating the transaction's fate. If the status is \"ACCEPTED_ON_L2\", it means the Sequencer, the component that "
 "receives and processes transactions, has accepted the transaction, which is now awaiting inclusion in an upcoming block. However, a \"REJECTED\" status signifies the Sequencer's disapproval, and the "
 "transaction won't feature in the upcoming block. More often than not, this transaction gains acceptance, leading to a contract state modification. See [this chapter](https://book.starknet.io/ch03-00-"
 "architecture.html) for more on Starknet's architecture and the Sequencer. On calling the **`get_owner`** function again we get this:"
 msgstr ""
-"对于这些交易，终端日志将显示一个\"status\"  变量，表明该交易的命运。如果状态显示为 \"ACCEPTED_ON_L2\"，则表示排序器已接受该交易，等待将其加入区块。但是，如果状态为 \"REJECTED\"，则表示排序器不接受该交"
-"易，该交易将不会出现在即将到来的区块中。通常情况下，该交易会被接受，从而导致合约状态修改。再次调用**`get_owner`**函数时，我们会得到以下结果："
+"这些交易执行后，如果终端日志中 ”finality_status”  变量的状态显示为 \"ACCEPTED_ON_L2\"，则表示排序器已接受该交易，等待将其加入区块。但是，如果状态为 \"REJECTED\"，则表示排序器不接受该交易，该交易将不会"
+"出现在即将到来的区块中。通常情况下，该交易会被接受，从而导致合约状态的修改。再次调用 `get_owner` 函数时，我们会得到以下结果："
 
 #: src/ch01-00-getting-started.md:273
 msgid "\"0x5495d56633745aa3b97bdb89c255d522e98fd2cb481974efe898560839aa472\""
@@ -1323,12 +1285,11 @@ msgstr ""
 
 #: src/ch01-00-getting-started.md:281
 msgid "You've now adeptly compiled, deployed, and interacted with your inaugural Starknet smart contract. Well done!"
-msgstr "您现在已经能熟练地编译、部署并与您的首份Starknet智能合约进行交互了。干得不错！"
+msgstr "您现在已经能熟练地编译、部署并与您的第一个 Starknet 智能合约进行交互了。干得不错！"
 
 #: src/ch01-00-getting-started.md:283
-#, fuzzy
 msgid "Deploying on Starknet Testnet"
-msgstr "## 在Starknet测试网上部署"
+msgstr "在Starknet测试网上部署"
 
 #: src/ch01-00-getting-started.md:285
 msgid ""
@@ -1337,20 +1298,18 @@ msgid ""
 msgstr "在开发网络上测试完智能合约后，就可以将其部署到Starknet测试网络上了。Starknet 测试网络是一个面向所有人的公共平台，是测试智能合约和与其他开发者合作的理想平台。"
 
 #: src/ch01-00-getting-started.md:287
-#, fuzzy
 msgid "First, you need to create a Starknet account."
 msgstr "首先，您需要创建一个Starknet账户。"
 
 #: src/ch01-00-getting-started.md:289 src/ch02-05-testnet-deployment.md:12
-#, fuzzy
 msgid "Smart Wallet Setup"
-msgstr "## 智能钱包设置"
+msgstr "钱包设置"
 
 #: src/ch01-00-getting-started.md:291
 msgid ""
 "Before deploying your smart contract to Starknet, you must handle the transaction cost. While deploying to the Starknet Goerli Testnet is free, a smart wallet account is essential. You can set up a "
 "smart wallet using either:"
-msgstr "在将智能合约部署到Starknet之前，您必须处理好交易成本相关的问题。虽然部署到Starknet Goerli Testnet 是免费的，但智能钱包账户却是必不可少的。你可以使用以下两种方法之一建立智能钱包："
+msgstr "将智能合约部署到 Starknet 需要一些费用，虽然部署到 Starknet Goerli 测试网是免费的，但需要使用钱包账户来发起交易。两种方法创建钱包："
 
 #: src/ch01-00-getting-started.md:293
 #, fuzzy
@@ -1367,61 +1326,51 @@ msgstr ""
 msgid ""
 "Both are reliable Starknet wallets offering enhanced security and accessibility features thanks to the possibilities that the Cairo VM brings, such as Account Abstraction (keep reading the Book for "
 "more on this)."
-msgstr "两者皆是可靠的Starknet钱包，由于Cairo虚拟机带来了更多可能性，如账户抽象（请继续阅读本书了解更多相关信息），因此Starknet上的钱包比起EOA钱包具有更强的安全性和可访问性。"
+msgstr "两者皆是可靠的 Starknet 钱包，由于 Cairo 虚拟机带来了更多可能性，如账户抽象（请继续阅读本书了解更多相关信息），因此 Starknet 上的钱包比起 EOA 钱包具有更强的安全性和可访问性。"
 
 #: src/ch01-00-getting-started.md:298
 msgid "Install the recommended chrome/brave extension for your chosen wallet."
-msgstr ""
+msgstr "安装两者之一的 chrome 或者 brave 插件"
 
 #: src/ch01-00-getting-started.md:299
 msgid "Follow your wallet provider's instructions to deploy your account."
-msgstr ""
+msgstr "按照钱包的指引部署钱包账户"
 
 #: src/ch01-00-getting-started.md:300
 msgid "Use the [Starknet Faucet](https://faucet.goerli.starknet.io/) to fund your account."
-msgstr ""
+msgstr "使用测试币水龙头 [Starknet Faucet](https://faucet.goerli.starknet.io/) 为账户添加资金"
 
 #: src/ch01-00-getting-started.md:301
 msgid "Deploy the account to the network. This usually takes around 10 seconds."
-msgstr ""
+msgstr "将账户部署到网络上，这个过程通常需要 10 秒钟左右。"
 
 #: src/ch01-00-getting-started.md:303
 msgid "Once set up, you're ready to deploy your smart contracts to the Starknet Testnet."
-msgstr "当设置完成后，您就可以将智能合约部署到Starknet测试网络了。"
+msgstr "当设置完成后，您就可以将智能合约部署到 Starknet 测试网络了。"
 
 #: src/ch01-00-getting-started.md:307
 msgid "Follow the previous deployment steps."
-msgstr ""
+msgstr "按照之前的部署步骤"
 
 #: src/ch01-00-getting-started.md:308
 msgid "In the 'Environment selection' tab, choose 'Wallet'."
-msgstr ""
+msgstr "在 `Environment selection`  处选择 `Wallet`"
 
 #: src/ch01-00-getting-started.md:309
-#, fuzzy
 msgid "Select your Starknet account and continue with deploying and interacting with your contract."
-msgstr ""
-"1.按照之前的部署步骤进行。\n"
-"2.在 'Environment selection' 选项卡中，选择 'Wallet Selection'。\n"
-"3.选择您的Starknet账户，然后继续部署并与您的合约交互。"
+msgstr "选择需要执行操作的 Starknet账户，然后进行部署与交互"
 
 #: src/ch01-00-getting-started.md:313
 msgid "You can monitor transaction hashes and addresses using any Starknet block explorers like:"
 msgstr "您可以使用任何 Starknet 区块浏览器监控交易哈希值和地址："
 
 #: src/ch01-00-getting-started.md:315
-#, fuzzy
 msgid "[Starkscan](https://testnet.starkscan.co/)"
 msgstr ""
-"- [Starkscan](https://testnet.starkscan.co/)\n"
-"- [Voyager](https://goerli.voyager.online/)"
 
 #: src/ch01-00-getting-started.md:316
-#, fuzzy
 msgid "[Voyager](https://goerli.voyager.online/)"
 msgstr ""
-"- [Starkscan](https://testnet.starkscan.co/)\n"
-"- [Voyager](https://goerli.voyager.online/)"
 
 #: src/ch01-00-getting-started.md:317
 msgid "[ViewBlock](https://viewblock.io/starknet)"
@@ -1435,34 +1384,30 @@ msgstr ""
 msgid ""
 "These tools provide a visual representation of transactions and contract state alterations. Notably, when you alter the contract ownership using the `transfer_ownership` function, the event emitted by "
 "the contract appears in the block explorer. It's an effective method to track contract events."
-msgstr "这些工具提供了事务和合约状态更改的可视化表示。值得注意的是，当你使用 `transfer_ownership` 函数更改合约所有权时，合约发出的事件就会出现在区块浏览器中。这是跟踪合约事件的有效方法。"
+msgstr "这些工具提供了合约状态更改的可视化表示。值得注意的是，当你使用 `transfer_ownership` 函数更改合约所有权时，合约发出的事件就会出现在区块浏览器中。这是跟踪合约事件的有效方法。"
 
 #: src/ch01-00-getting-started.md:322
-#, fuzzy
 msgid "Your Next Steps"
-msgstr "## 接下来的步骤"
+msgstr "接下来的步骤"
 
 #: src/ch01-00-getting-started.md:324
 msgid "Decide your direction from the following choices:"
-msgstr "你可以从以下选项中决定你的学习方向："
+msgstr "可以从以下两个方向中选择一个："
 
 #: src/ch01-00-getting-started.md:326
 msgid ""
 "**Deepen Your Starknet Knowledge**: For an extensive grasp of Starknet's inner workings and potential use cases, delve into Chapter 3 of the Starknet Book. This chapter details Starknet’s "
 "architectural nuances. Then go ahead from there."
-msgstr ""
+msgstr "**深化您的Starknet知识**：要广泛了解 Starknet 的内部运作和潜在用例，请深入阅读《Starknet 之书》第 3 章。本章详细介绍了Starknet架构的细微差别。然后继续学习"
 
 #: src/ch01-00-getting-started.md:328
-#, fuzzy
 msgid ""
 "**Dive into Cairo**: If you're more attuned to coding and wish to craft Starknet contracts, then Cairo is essential. It stands as Starknet's core contract language. Begin with Chapters 1-6 of the "
 "[Cairo Book](https://book.cairo-lang.org/title-page.html), ranging from basics in _Getting Started_ to more advanced aspects such as _Enums and Pattern Matching_. Conclude by navigating to the "
 "[Starknet Smart Contracts chapter](https://book.cairo-lang.org/ch13-00-introduction-to-starknet-smart-contracts.html), ensuring you have a well-rounded understanding."
 msgstr ""
-"1. **深化您的Starknet知识**：要广泛了解 Starknet 的内部运作和潜在用例，请深入阅读《Starknet 之书》第 3 章。本章详细介绍了Starknet架构的细微差别。然后继续学习。\n"
-"\n"
-"2. **深入了解Cairo**：如果你更擅长编码，并希望编写Starknet合约，那么Cairo是必不可少的。它是Starknet的核心合约语言。请从[Cairo Book](https://book.cairo-lang.org/title-page.html)的第1-6章开始，学习从 _入"
-"门_ 的基础知识到 _枚举和模式匹配_ 等更高级的内容。最后，浏览[Starknet 智能合约章节](https://book.cairo-lang.org/ch99-00-starknet-smart-contracts.html)，确保您有一个全面的了解。"
+"**深入了解Cairo**：如果你更擅长编码，并希望编写Starknet合约，那么Cairo是必不可少的。它是Starknet的核心合约语言。请从 [Cairo Book](https://book.cairo-lang.org/title-page.html) 的第1-6章开始，学习从 _入"
+"门_ 的基础知识到 _枚举和模式匹配_ 等更高级的内容。最后，浏览 [Starknet 智能合约章节](https://book.cairo-lang.org/ch99-00-starknet-smart-contracts.html)，确保您有一个全面的了解。"
 
 #: src/ch02-00-starknet-tooling.md:1
 #, fuzzy
