@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Starknet Book\n"
 "POT-Creation-Date: 2024-04-07T21:56:52+08:00\n"
-"PO-Revision-Date: 2024-04-08 21:07+0800\n"
+"PO-Revision-Date: 2024-04-09 11:09+0800\n"
 "Last-Translator: StarknetAstro <cryptonerdcn@gmail.com>\n"
 "Language-Team: Language zh-cn\n"
 "Language: zh_CN\n"
@@ -1606,7 +1606,7 @@ msgstr "重启终端后，用以下命令验证安装："
 
 #: src/ch02-01-basic-installation.md:115 src/ch02-04-katana.md:49
 msgid "To upgrade Katana, rerun the installation command."
-msgstr "要升级卡塔娜，请重新运行安装命令。"
+msgstr "要升级 Katana，请重新运行安装命令"
 
 #: src/ch02-01-basic-installation.md:117
 msgid "You are now set to code in Cairo and deploy to Starknet."
@@ -1686,18 +1686,12 @@ msgid "For streamlined Starkli command execution, establish environment variable
 msgstr "为了简化 Starkli 命令的执行，需要建立环境变量。有两个主要变量必不可少："
 
 #: src/ch02-02-starkli-scarb-katana.md:59
-#, fuzzy
 msgid "One for your account, a pre-funded account on the local development network"
-msgstr ""
-"- 一个用于您的账户，即本地开发网络上的预资助账户\n"
-"- 另一个用于指定网络，特别是本地 katana 开发网络"
+msgstr "其一指定本地开发网络上的有测试资金的钱包账号"
 
 #: src/ch02-02-starkli-scarb-katana.md:60
-#, fuzzy
 msgid "Another for designating the network, specifically the local katana devnet"
-msgstr ""
-"- 一个用于您的账户，即本地开发网络上的预资助账户\n"
-"- 另一个用于指定网络，特别是本地 katana 开发网络"
+msgstr "其二是选择网络，这里设置的是 katana 开发网络"
 
 #: src/ch02-02-starkli-scarb-katana.md:62
 msgid "In the `src/` directory, create a `.env` file with the following:"
@@ -1716,29 +1710,24 @@ msgid "These settings streamline Starkli command operations."
 msgstr "这些设置可简化 Starkli 命令操作。"
 
 #: src/ch02-02-starkli-scarb-katana.md:71 src/ch02-05-testnet-deployment.md:297
-#, fuzzy
 msgid "Declaring Smart Contracts in Starknet"
-msgstr "## 在 Starknet 上声明智能合约"
+msgstr "在 Starknet 上声明智能合约"
 
 #: src/ch02-02-starkli-scarb-katana.md:73
 msgid "Deploying a Starknet smart contract requires two primary steps:"
 msgstr "在 Starknet 上部署智能合约包括两个步骤："
 
 #: src/ch02-02-starkli-scarb-katana.md:75
-#, fuzzy
 msgid "Declare the contract's code."
-msgstr "2.声明合约"
+msgstr "声明合约代码"
 
 #: src/ch02-02-starkli-scarb-katana.md:76
-#, fuzzy
 msgid "Deploy an instance of that declared code."
-msgstr ""
-"- 声明您的合约代码。\n"
-"- 部署已声明代码的实例。"
+msgstr "部署已声明代码的合约"
 
 #: src/ch02-02-starkli-scarb-katana.md:78
 msgid "Begin with the `src/lib.cairo` file, which provides a foundational template. Remove its contents and insert the following:"
-msgstr "从提供基础模板的`src/lib.cairo`文件开始。删除其内容并插入以下内容："
+msgstr "将基础模板 `src/lib.cairo` 文件中的内容删除，粘入以下代码："
 
 #: src/ch02-02-starkli-scarb-katana.md:112
 msgid "This rudimentary smart contract serves as a starting point."
