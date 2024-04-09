@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Starknet Book\n"
 "POT-Creation-Date: 2024-04-07T21:56:52+08:00\n"
-"PO-Revision-Date: 2024-04-08 15:42+0800\n"
+"PO-Revision-Date: 2024-04-08 21:07+0800\n"
 "Last-Translator: StarknetAstro <cryptonerdcn@gmail.com>\n"
 "Language-Team: Language zh-cn\n"
 "Language: zh_CN\n"
@@ -17,9 +17,8 @@ msgid "The Starknet Book"
 msgstr "Starknet 之书"
 
 #: src/SUMMARY.md:3
-#, fuzzy
 msgid "The Starknet Book Introduction"
-msgstr "Starknet 之书 "
+msgstr "Starknet 之书"
 
 #: src/SUMMARY.md:6
 msgid "Getting started"
@@ -927,7 +926,7 @@ msgstr "删除 `src/lib.cairo` 中的全部内容。"
 
 #: src/ch01-00-getting-started.md:27
 msgid "At the end, your new project should look something like this."
-msgstr "此时项目的结构应该如下图所示："
+msgstr "此时项目的结构应该如下图所示。"
 
 #: src/ch01-00-getting-started.md:31
 msgid "Introduction to Starknet Smart Contracts"
@@ -935,23 +934,23 @@ msgstr "Starknet 智能合约介绍"
 
 #: src/ch01-00-getting-started.md:33
 msgid "The script below is a simple `Ownable` contract pattern written in Cairo for Starknet. It features:"
-msgstr "下面的代码是 `Ownable`  合约的内容，它是 Cairo 语言编写的一个简单的 Starknet 智能合约。"
+msgstr "下面的代码是 `Ownable`  合约的内容，它是 Cairo 语言编写的一个简单的 Starknet 智能合约："
 
 #: src/ch01-00-getting-started.md:35
 msgid "An ownership system."
-msgstr "所有权控制机制"
+msgstr "所有权控制机制。"
 
 #: src/ch01-00-getting-started.md:36
 msgid "A method to transfer ownership."
-msgstr "转移所有权的方法"
+msgstr "转移所有权的方法。"
 
 #: src/ch01-00-getting-started.md:37
 msgid "A method to check the current owner."
-msgstr "检查当前所有者的方法"
+msgstr "检查当前所有者的方法。"
 
 #: src/ch01-00-getting-started.md:38
 msgid "An event notification for ownership changes."
-msgstr "所有权变更的事件通知"
+msgstr "所有权变更的事件通知。"
 
 #: src/ch01-00-getting-started.md:40
 msgid "Cairo Example Contract"
@@ -973,11 +972,11 @@ msgstr "**依赖与接口**："
 
 #: src/ch01-00-getting-started.md:112
 msgid "**`starknet::ContractAddress`**: Represents a Starknet contract address."
-msgstr "**`starknet::ContractAddress`**：表示 Starknet 合约地址的数据类型"
+msgstr "**`starknet::ContractAddress`**：表示 Starknet 合约地址的数据类型。"
 
 #: src/ch01-00-getting-started.md:113
 msgid "**`OwnableTrait`**: Specifies functions for transferring and getting ownership."
-msgstr "**`OwnableTrait`**：用于转移所有权与查询所有者信息的函数集合"
+msgstr "**`OwnableTrait`**：用于转移所有权与查询所有者信息的函数集合。"
 
 #: src/ch01-00-getting-started.md:114
 msgid "**Events**:"
@@ -985,7 +984,7 @@ msgstr "**事件**："
 
 #: src/ch01-00-getting-started.md:115
 msgid "**`OwnershipTransferred`**: Indicates ownership change with previous and new owner details."
-msgstr "**`OwnershipTransferred`**：所有权从前任到现任的变更细节"
+msgstr "**`OwnershipTransferred`**：所有权从前任到现任的变更细节。"
 
 #: src/ch01-00-getting-started.md:116
 msgid "**Storage**:"
@@ -993,7 +992,7 @@ msgstr "**存储**:"
 
 #: src/ch01-00-getting-started.md:117
 msgid "**`Storage`**: Holds the contract's state with the current owner's address."
-msgstr "**`Storage`**： 将当前所有者的合约地址存入合约存储中"
+msgstr "**`Storage`**： 将当前所有者的合约地址存入合约存储中。"
 
 #: src/ch01-00-getting-started.md:118
 msgid "**Constructor**:"
@@ -1001,7 +1000,7 @@ msgstr "**构造函数**："
 
 #: src/ch01-00-getting-started.md:119
 msgid "Initializes the contract with a starting owner."
-msgstr "以最初所有者的合约地址初始化合约"
+msgstr "以最初所有者的合约地址初始化合约。"
 
 #: src/ch01-00-getting-started.md:120
 msgid "**External Functions**:"
@@ -1009,7 +1008,7 @@ msgstr "**外部函数**："
 
 #: src/ch01-00-getting-started.md:121
 msgid "Functions for transferring ownership and retrieving the current owner's details."
-msgstr "转移所有权与查询当前所有者的地址"
+msgstr "转移所有权与查询当前所有者的地址。"
 
 #: src/ch01-00-getting-started.md:122
 msgid "**Private Methods**:"
@@ -1017,7 +1016,7 @@ msgstr "**私有函数**："
 
 #: src/ch01-00-getting-started.md:123
 msgid "**`only_owner`**: Validates if the caller is the current owner."
-msgstr "**`only_owner`**： 检查当前调用者是否是合约所有者"
+msgstr "**`only_owner`**： 检查当前调用者是否是合约所有者。"
 
 #: src/ch01-00-getting-started.md:125
 msgid "Compilation Process"
@@ -1033,7 +1032,7 @@ msgstr "**编写合约**"
 
 #: src/ch01-00-getting-started.md:131
 msgid "Navigate to the \"File Explorer\" tab in Remix."
-msgstr "在 Remix 中点击 “File Explorer”"
+msgstr "在 Remix 中点击 “File Explorer”。"
 
 #: src/ch01-00-getting-started.md:132
 msgid "Go to file named `lib.cairo` and paste the previous [code](#cairo-example-contract) into it."
@@ -1045,19 +1044,19 @@ msgstr "**编译**"
 
 #: src/ch01-00-getting-started.md:136
 msgid "Navigate to the \"Starknet\" tab in Remix and click on `Home`."
-msgstr "点击最左侧 “Starknet” 插件标签，进入后点击 `Home`"
+msgstr "点击最左侧 “Starknet” 插件标签，进入后点击 `Home`。"
 
 #: src/ch01-00-getting-started.md:137
 msgid "In the `1 Compile` section choose `compile a single file`."
-msgstr "在  `1 Compile` 部分点击 `compile a single file`"
+msgstr "在  `1 Compile` 部分点击 `compile a single file`。"
 
 #: src/ch01-00-getting-started.md:141
 msgid "Accept the permissions. Click `Remember my choice` to avoid this step in the future."
-msgstr "允许授权请求，并点击 `Remember my choice` 默认允许此种授权，不再弹出授权请求"
+msgstr "允许授权请求，并点击 `Remember my choice` 默认允许此种授权，不再弹出授权请求。"
 
 #: src/ch01-00-getting-started.md:145
 msgid "Click on `Compile lib.cairo`."
-msgstr "点击 `Compile lib.cairo`"
+msgstr "点击 `Compile lib.cairo`。"
 
 #: src/ch01-00-getting-started.md:149
 msgid ""
@@ -1089,7 +1088,7 @@ msgstr "**选择网络**"
 
 #: src/ch01-00-getting-started.md:163
 msgid "In the Starknet tab, click on the top button `Remote Devnet`."
-msgstr "在 Starknet 插件中，点击最上面的 `Remote Devnet` "
+msgstr "在 Starknet 插件中，点击最上面的 `Remote Devnet` 。"
 
 #: src/ch01-00-getting-started.md:167
 msgid "**Choose a Devnet Account**"
@@ -1097,11 +1096,11 @@ msgstr "**选择 Devnet Account**"
 
 #: src/ch01-00-getting-started.md:169
 msgid "Under \"Devnet account selection\", a list of accounts specific to the chosen devnet is presented."
-msgstr "在 “Devnet account selection” 下有一个供开发网络使用的账号列表"
+msgstr "在 “Devnet account selection” 下有一个供开发网络使用的账号列表。"
 
 #: src/ch01-00-getting-started.md:173
 msgid "Pick any account and copy its address."
-msgstr "选择一个账号并复制地址"
+msgstr "选择一个账号并复制地址。"
 
 #: src/ch01-00-getting-started.md:175
 msgid "**Declare**"
@@ -1109,7 +1108,7 @@ msgstr "**Declare（声明合约）**"
 
 #: src/ch01-00-getting-started.md:177
 msgid "Click on \"Declare lib.cairo\""
-msgstr "点击 “Declare lib.cairo”                                           "
+msgstr "点击 “Declare lib.cairo”。"
 
 #: src/ch01-00-getting-started.md:181
 msgid "Post-declared, Remix's terminal will send various logs. These logs provide crucial details, including:"
@@ -1145,11 +1144,11 @@ msgstr "**部署**"
 
 #: src/ch01-00-getting-started.md:197
 msgid "Input the copied address into the `init_owner` variable."
-msgstr "将前面复制的地址粘贴到 `init_owner` 对应位置。        "
+msgstr "将前面复制的地址粘贴到 `init_owner` 对应位置。"
 
 #: src/ch01-00-getting-started.md:201
 msgid "Click on **\"Deploy\"**."
-msgstr "点击 **“2 Deploy”**"
+msgstr "点击 **“2 Deploy”**。"
 
 #: src/ch01-00-getting-started.md:203
 msgid "Post-deployment, Remix's terminal will send various logs. These logs provide crucial details, including:"
@@ -1201,11 +1200,11 @@ msgstr "**合约交互**"
 
 #: src/ch01-00-getting-started.md:232
 msgid "Navigate to the \"Starknet\" plugin tab."
-msgstr "进入左侧  “Starknet” 插件     "
+msgstr "进入左侧  “Starknet” 插件。"
 
 #: src/ch01-00-getting-started.md:233
 msgid "Select the \"Interact\" option."
-msgstr "点击 “3 Interact”       "
+msgstr "点击 “3 Interact”。"
 
 #: src/ch01-00-getting-started.md:235
 msgid "**Calling the `get_owner` Function**"
@@ -1213,11 +1212,11 @@ msgstr "**调用 `transfer_ownership` 函数**"
 
 #: src/ch01-00-getting-started.md:237
 msgid "Choose the `get_owner` function. Since this function doesn't require arguments, the calldata field remains blank. (This is a read function, hence calling it is termed as a \"call\".)"
-msgstr "选择 `get_owner` 函数，这个函数不需要输入参数，所以 calldata 的位置留空即可（这是一个 read 函数，所以调用它也叫 “call” 它）。        "
+msgstr "选择 `get_owner` 函数，这个函数不需要输入参数，所以 calldata 的位置留空即可（这是一个 read 函数，所以调用它也叫 “call” 它）。"
 
 #: src/ch01-00-getting-started.md:241
 msgid "Press the **\"Call\"** button. Your terminal will display the result, revealing the owner's address provided during the contract's deployment as calldata for the constructor:"
-msgstr "点击 **“Call”**  按钮，终端将输出合约的部署者地址。"
+msgstr "点击 **“Call”**  按钮，终端将输出合约的部署者地址："
 
 #: src/ch01-00-getting-started.md:245 src/ch01-00-getting-started.md:271
 msgid "\"resp\""
@@ -1257,7 +1256,7 @@ msgstr "选择 **“Write”** ，在这里出现的函数都会改变合约状�
 
 #: src/ch01-00-getting-started.md:263
 msgid "In this case **`transfer_ownership`** function, which requires the new owner's address as input."
-msgstr "调用 **`transfer_ownership`** 函数需要输入合约地址作为参数，这个地址将成为合约的新所有者"
+msgstr "调用 **`transfer_ownership`** 函数需要输入合约地址作为参数，这个地址将成为合约的新所有者。"
 
 #: src/ch01-00-getting-started.md:264
 msgid "Enter this address into the `new_owner` field. (For this, use any address from the \"Devnet account selection\" listed in the Environment tab.)"
@@ -1312,11 +1311,8 @@ msgid ""
 msgstr "将智能合约部署到 Starknet 需要一些费用，虽然部署到 Starknet Goerli 测试网是免费的，但需要使用钱包账户来发起交易。两种方法创建钱包："
 
 #: src/ch01-00-getting-started.md:293
-#, fuzzy
 msgid "[Argent](https://www.argent.xyz/argent-x/)"
 msgstr ""
-"- [Braavos](https://braavos.app/)\n"
-"- [Argent](https://www.argent.xyz/argent-x/)"
 
 #: src/ch01-00-getting-started.md:294
 msgid "[Braavos](https://braavos.app/)"
@@ -1330,15 +1326,15 @@ msgstr "两者皆是可靠的 Starknet 钱包，由于 Cairo 虚拟机带来了�
 
 #: src/ch01-00-getting-started.md:298
 msgid "Install the recommended chrome/brave extension for your chosen wallet."
-msgstr "安装两者之一的 chrome 或者 brave 插件"
+msgstr "安装两者之一的 chrome 或者 brave 插件。"
 
 #: src/ch01-00-getting-started.md:299
 msgid "Follow your wallet provider's instructions to deploy your account."
-msgstr "按照钱包的指引部署钱包账户"
+msgstr "按照钱包的指引部署钱包账户。"
 
 #: src/ch01-00-getting-started.md:300
 msgid "Use the [Starknet Faucet](https://faucet.goerli.starknet.io/) to fund your account."
-msgstr "使用测试币水龙头 [Starknet Faucet](https://faucet.goerli.starknet.io/) 为账户添加资金"
+msgstr "使用测试币水龙头 [Starknet Faucet](https://faucet.goerli.starknet.io/) 为账户添加资金。"
 
 #: src/ch01-00-getting-started.md:301
 msgid "Deploy the account to the network. This usually takes around 10 seconds."
@@ -1350,15 +1346,15 @@ msgstr "当设置完成后，您就可以将智能合约部署到 Starknet 测�
 
 #: src/ch01-00-getting-started.md:307
 msgid "Follow the previous deployment steps."
-msgstr "按照之前的部署步骤"
+msgstr "按照之前的部署步骤。"
 
 #: src/ch01-00-getting-started.md:308
 msgid "In the 'Environment selection' tab, choose 'Wallet'."
-msgstr "在 `Environment selection`  处选择 `Wallet`"
+msgstr "在 `Environment selection`  处选择 `Wallet`。"
 
 #: src/ch01-00-getting-started.md:309
 msgid "Select your Starknet account and continue with deploying and interacting with your contract."
-msgstr "选择需要执行操作的 Starknet账户，然后进行部署与交互"
+msgstr "选择需要执行操作的 Starknet账户，然后进行部署与交互。"
 
 #: src/ch01-00-getting-started.md:313
 msgid "You can monitor transaction hashes and addresses using any Starknet block explorers like:"
@@ -1398,7 +1394,7 @@ msgstr "可以从以下两个方向中选择一个："
 msgid ""
 "**Deepen Your Starknet Knowledge**: For an extensive grasp of Starknet's inner workings and potential use cases, delve into Chapter 3 of the Starknet Book. This chapter details Starknet’s "
 "architectural nuances. Then go ahead from there."
-msgstr "**深化您的Starknet知识**：要广泛了解 Starknet 的内部运作和潜在用例，请深入阅读《Starknet 之书》第 3 章。本章详细介绍了Starknet架构的细微差别。然后继续学习"
+msgstr "**深化您的Starknet知识**：要广泛了解 Starknet 的内部运作和潜在用例，请深入阅读《Starknet 之书》第 3 章。本章详细介绍了Starknet架构的细微差别。然后继续学习。"
 
 #: src/ch01-00-getting-started.md:328
 msgid ""
@@ -1410,22 +1406,19 @@ msgstr ""
 "门_ 的基础知识到 _枚举和模式匹配_ 等更高级的内容。最后，浏览 [Starknet 智能合约章节](https://book.cairo-lang.org/ch99-00-starknet-smart-contracts.html)，确保您有一个全面的了解。"
 
 #: src/ch02-00-starknet-tooling.md:1
-#, fuzzy
 msgid "Starknet Tooling"
-msgstr "# Starknet工具"
+msgstr "Starknet工具"
 
 #: src/ch02-00-starknet-tooling.md:3 src/ch02-03-scarb.md:3
-#, fuzzy
 msgid ""
 "To make the most of this chapter, a basic grasp of the Cairo programming language is advised. We suggest reading chapters 1-6 of the [Cairo Book](https://book.cairo-lang.org/title-page.html), covering "
 "topics from _Getting Started_ to _Enums and Pattern Matching._ Follow this by studying the [Starknet Smart Contracts chapter](https://book.cairo-lang.org/ch13-00-introduction-to-starknet-smart-"
 "contracts.html) in the same book. With this background, you’ll be well-equipped to understand the examples presented here."
 msgstr ""
-"要充分理解本章内容，建议先掌握Cairo编程语言的基本知识。我们建议阅读[Cairo Book](https://book.cairo-lang.org/zh-cn/title-page.html)的第1-6章，内容包括从 _入门_ 章节的基础知识到 _枚举和模式匹配_。之后，"
-"再学习同一本书中的[Starknet 智能合约](https://book.cairo-lang.org/ch99-00-starknet-smart-contracts.htmll)。有了这些背景知识，你就能很好地理解这里介绍的示例了。"
+"要充分理解本章内容，建议先掌握Cairo编程语言的基本知识。我们建议阅读 [Cairo Book](https://book.cairo-lang.org/zh-cn/title-page.html)的第1-6章，内容包括从 _入门_ 章节的基础知识到 _枚举和模式匹配_。之后，"
+"再学习同一本书中的 [Starknet 智能合约](https://book.cairo-lang.org/ch99-00-starknet-smart-contracts.htmll)。有了这些背景知识，你就能很好地理解这里介绍的示例了。"
 
 #: src/ch02-00-starknet-tooling.md:12
-#, fuzzy
 msgid ""
 "Today, Starknet provides all essential tools for building decentralized applications (dApps), compatible with multiple languages like JavaScript, Rust, and Python. You can use the Starknet SDK for "
 "development. Front-end developers can use Starknet.js with React, while Rust and Python work well for back-end tasks."
@@ -1434,7 +1427,6 @@ msgstr ""
 "Python 则可以很好地完成后端任务。"
 
 #: src/ch02-00-starknet-tooling.md:18
-#, fuzzy
 msgid "We welcome contributors to enhance existing tools or develop new solutions."
 msgstr "我们欢迎贡献者改进现有工具或开发新的解决方案。"
 
@@ -1444,63 +1436,58 @@ msgstr "在本章中，您将了解："
 
 #: src/ch02-00-starknet-tooling.md:23
 msgid "**Frameworks:** Build using Starknet-Foundry"
-msgstr ""
+msgstr "**Frameworks:**  使用 Starknet-Foundry 构建项目"
 
 #: src/ch02-00-starknet-tooling.md:25
 msgid "**SDKs:** Discover multi-language support through Starknet.js, Starknet-rs, Starknet_py, and Cairo"
-msgstr ""
+msgstr "**SDKs:** 认识 Starknet.js、Starknet-rs、Starknet_py 和 Cairo 等对多种语言支持的工具"
 
 #: src/ch02-00-starknet-tooling.md:28
 msgid "**Front-end Development:** Use Starknet.js and React"
-msgstr ""
+msgstr "**Front-end Development:** 使用 Starknet.js 与 React"
 
 #: src/ch02-00-starknet-tooling.md:30
 msgid "**Testing:** Understand testing methods with Starknet-Foundry and the Devnet"
-msgstr ""
+msgstr "**Testing:** 了解 Starknet-Foundry 在开发网络上的的测试方式"
 
 #: src/ch02-00-starknet-tooling.md:32
-#, fuzzy
 msgid "By chapter’s end, you’ll have a complete grasp of Starknet’s toolset, enabling efficient dApp development."
 msgstr "本章结束时，您将能完全掌握 Starknet 的工具集，实现高效的 dApp 开发。"
 
 #: src/ch02-00-starknet-tooling.md:35
-#, fuzzy
 msgid "Here’s a quick rundown of the tools that could be used for Starknet development and that we’ll cover in this chapter:"
-msgstr "以下是可用于Starknet开发的工具的简要介绍，我们将在本章介绍这些工具："
+msgstr "以下是可用于 Starknet 开发的工具的简要介绍，我们将在本章介绍这些工具："
 
 #: src/ch02-00-starknet-tooling.md:38
 msgid "**Scarb:** A package manager that compiles your contracts."
-msgstr ""
+msgstr "**Scarb:** 编译 Starknet 智能合约的包管理器。"
 
 #: src/ch02-00-starknet-tooling.md:40
-#, fuzzy
 msgid "**Starkli:** A CLI tool for interacting with the Starknet network."
-msgstr "## 与Starknet合约交互"
+msgstr "**Starkli:** 用于与 Starknet 交互的命令行工具。"
 
 #: src/ch02-00-starknet-tooling.md:42
 msgid "**Starknet Foundry:** For contract testing."
-msgstr ""
+msgstr "**Starknet Foundry:** 测试智能合约。"
 
 #: src/ch02-00-starknet-tooling.md:44
 msgid "**Katana:** Creates a local test node."
-msgstr ""
+msgstr "**Katana:** 用于运行本地测试节点。"
 
 #: src/ch02-00-starknet-tooling.md:46
 msgid "**SDKs:** starknet.js, Starknet.py, and starknet.rs interface with Starknet using common programming languages."
-msgstr ""
+msgstr "**SDKs:** starknet.js，Starknet.py，与 starknet.rs 是以常用语言与 Starknet 交互的工具。"
 
 #: src/ch02-00-starknet-tooling.md:49
 msgid "**Starknet-react:** Builds front-end apps using React."
-msgstr ""
+msgstr "**Starknet-react:** 使用 React 构建前后端 app。"
 
 #: src/ch02-01-basic-installation.md:1 src/ch02-01-basic-installation.md:51 src/ch02-03-scarb.md:34 src/ch02-07-starknet-devnet.md:5 src/ch02-09-starknet-js.md:13 src/ch02-15-02-caracal.md:13
 #: src/ch02-15-03-thoth.md:22 src/ch03-02-01-madara.md:25
-#, fuzzy
 msgid "Installation"
-msgstr "# 安装"
+msgstr "安装"
 
 #: src/ch02-01-basic-installation.md:3
-#, fuzzy
 msgid "This chapter walks you through setting up your Starknet development tools."
 msgstr "本章将指导您安装与设置 Starknet 开发工具。"
 
@@ -1510,30 +1497,29 @@ msgstr "安装必备工具："
 
 #: src/ch02-01-basic-installation.md:8
 msgid "[Starkli](https://github.com/xJonathanLEI/starkli) - A CLI tool for interacting with Starknet. More tools are discussed in Chapter 2."
-msgstr ""
+msgstr "[Starkli](https://github.com/xJonathanLEI/starkli) - 用于与 Starknet 交互的命令行工具。更多的工具将在第二章讨论。"
 
 #: src/ch02-01-basic-installation.md:11
 msgid ""
 "[Scarb](https://github.com/software-mansion/scarb) - Cairo’s package manager that compiles code to [Sierra](https://docs.starknet.io/documentation/architecture_and_concepts/Smart_Contracts/cairo-and-"
 "sierra), a mid-level language between Cairo and CASM."
 msgstr ""
+"[Scarb](https://github.com/software-mansion/scarb) - Cairo 的库管理器用于将 Cairo 代码编译为  [Sierra](https://docs.starknet.io/documentation/architecture_and_concepts/Smart_Contracts/cairo-and-sierra)"
+"（Cairo 与 CASM 的中间层语言）。"
 
 #: src/ch02-01-basic-installation.md:15
 msgid "[Katana](https://github.com/dojoengine/dojo) - Katana is a Starknet node, built for local development."
-msgstr ""
+msgstr "[Katana](https://github.com/dojoengine/dojo) - Katana 是 Starknet 节点，用于本地开发。"
 
 #: src/ch02-01-basic-installation.md:17
-#, fuzzy
 msgid "For support or queries, visit our [GitHub Issues](https://github.com/starknet-edu/starknetbook/issues) or contact espejelomar on Telegram."
-msgstr "有关支持或问题，请访问我们的 [GitHub Issues](https://github.com/starknet-edu/starknetbook/issues) 或在 Telegram 上联系 espejelomar。"
+msgstr "如果需要支持或遇到问题，请访问 [GitHub Issues](https://github.com/starknet-edu/starknetbook/issues) 或在 Telegram 上联系 espejelomar。"
 
 #: src/ch02-01-basic-installation.md:21
-#, fuzzy
 msgid "Starkli Installation"
-msgstr "## Starkli 安装"
+msgstr "安装 Starkli"
 
 #: src/ch02-01-basic-installation.md:23
-#, fuzzy
 msgid "Easily install Starkli using Starkliup, an installer invoked through the command line."
 msgstr "使用通过命令行调用安装程序 Starkliup，可轻松安装 Starkli。"
 
@@ -1546,26 +1532,24 @@ msgid "To upgrade Starkli, simply repeat the steps."
 msgstr "要升级 Starkli，只需重复上述步骤即可。"
 
 #: src/ch02-01-basic-installation.md:39
-#, fuzzy
 msgid "Scarb Package Manager Installation"
-msgstr "## 安装 Scarb 软件包管理器"
+msgstr "安装 Scarb 软件包管理器"
 
 #: src/ch02-01-basic-installation.md:41
 msgid "Scarb is also Cairo's package manager and is heavily inspired by [Cargo](https://doc.rust-lang.org/cargo/), Rust’s build system and package manager."
-msgstr ""
+msgstr "Scarb 是Cairo 的包管理器，受到了 [Cargo](https://doc.rust-lang.org/cargo/) 这个 Rust 包管理器非常大的启发。"
 
 #: src/ch02-01-basic-installation.md:44
 msgid "Scarb handles a lot of tasks for you, such as building your code (either pure Cairo or Starknet contracts), downloading the libraries your code depends on, building those libraries."
-msgstr ""
+msgstr "Scarb 会为你处理很多任务，例如构建代码（纯 Cairo 或 Starknet 合约）、下载代码所依赖的库并构建这些库。"
 
 #: src/ch02-01-basic-installation.md:47 src/ch02-08-foundry-cast.md:18 src/ch02-08-01-deployment-script.md:9 src/ch02-15-02-caracal.md:21
-#, fuzzy
 msgid "Requirements"
-msgstr "**最低要求：**"
+msgstr "要求"
 
 #: src/ch02-01-basic-installation.md:49
 msgid "Scarb requires a Git executable to be available in the `PATH` environment variable."
-msgstr ""
+msgstr "Scarb 要求 `PATH` 环境变量中有可执行的 Git 程序。"
 
 #: src/ch02-01-basic-installation.md:53
 msgid ""
@@ -1573,26 +1557,28 @@ msgid ""
 "download.html#install-via-asdf), a CLI tool that can manage multiple language runtime versions on a per-project basis. This will ensure that the version of Scarb you use to work on a project always "
 "matches the one defined in the project settings, avoiding problems related to version mismatches."
 msgstr ""
+"要安装 Scarb，请参阅[安装说明](https://docs.swmansion.com/scarb/download)。我们强烈建议您通过 [asdf](https://docs.swmansion.com/scarb/download.html#install-via-asdf) 安装 Scarb。asdf 是一种 CLI 工具，"
+"可按项目管理多个语言运行时版本。这将确保您在项目中使用的 Scarb 版本始终与项目设置中定义的版本一致，避免出现与版本不匹配相关的问题。"
 
 #: src/ch02-01-basic-installation.md:60
 msgid "Please refer to the [asdf documentation](https://asdf-vm.com/guide/getting-started.html) to install all prerequisites."
-msgstr ""
+msgstr "请参考  [asdf](https://asdf-vm.com/guide/getting-started.html) 文档安装必备依赖。"
 
 #: src/ch02-01-basic-installation.md:63
 msgid "Once you have asdf installed locally, you can download Scarb plugin with the following command:"
-msgstr ""
+msgstr "在本地安装好 asdf 后，可使用以下命令下载 Scarb 插件："
 
 #: src/ch02-01-basic-installation.md:69
 msgid "This will allow you to download specific versions:"
-msgstr ""
+msgstr "以下命令可以下载特定版本："
 
 #: src/ch02-01-basic-installation.md:75
 msgid "and set a global version:"
-msgstr ""
+msgstr "设置全局版本："
 
 #: src/ch02-01-basic-installation.md:81
 msgid "Otherwise, you can simply run the following command in your terminal, and follow the onscreen instructions. This will install the latest stable release of Scarb."
-msgstr ""
+msgstr "或者，只需在终端运行以下命令，并按照屏幕上的说明操作即可安装 Scarb 的最新稳定版本。"
 
 #: src/ch02-01-basic-installation.md:85 src/ch04-02-hello-account.md:24 src/ch04-03-standard-account.md:18
 msgid "'=https'"
@@ -1600,17 +1586,15 @@ msgstr ""
 
 #: src/ch02-01-basic-installation.md:88
 msgid "In both cases, you can verify installation by running the following command in a new terminal session, it should print both Scarb and Cairo language versions, e.g:"
-msgstr ""
+msgstr "运行以下命令来验证安装情况，该命令将在命令行输出 Scarb 和 Cairo 的版本信息，例如："
 
 #: src/ch02-01-basic-installation.md:97
-#, fuzzy
 msgid "For Windows, follow manual setup in the [Scarb documentation](https://docs.swmansion.com/scarb/download.html#windows)."
-msgstr "对于 Windows，请按照 [Scarb 文档](https://docs.swmansion.com/scarb/download.html#windows)中的手册进行设置。"
+msgstr "对于 Windows，请按照 [Scarb 文档](https://docs.swmansion.com/scarb/download.html#windows)中的手动设置部分进行设置。"
 
 #: src/ch02-01-basic-installation.md:100
-#, fuzzy
 msgid "Katana Node Installation"
-msgstr "## Katana Node 安装"
+msgstr "Katana Node 安装"
 
 #: src/ch02-01-basic-installation.md:102 src/ch02-04-katana.md:36
 msgid "To install Katana, use the `dojoup` installer from the command line:"
@@ -1629,17 +1613,14 @@ msgid "You are now set to code in Cairo and deploy to Starknet."
 msgstr "现在您已经将用Cairo编写代码并将其部署到Starknet所需的开发环境设置完成了。"
 
 #: src/ch02-02-starkli-scarb-katana.md:1
-#, fuzzy
 msgid "Introduction to Starkli, Scarb and Katana"
-msgstr "# Starkli、Scarb 和 Katana 的简介"
+msgstr "Starkli、Scarb 和 Katana 的简介"
 
 #: src/ch02-02-starkli-scarb-katana.md:3
-#, fuzzy
 msgid "In this chapter, you’ll learn how to compile, deploy, and interact with a Starknet smart contract written in Cairo using starkli, scarb and katana."
-msgstr "在本章中，你将学习如何使用starkli, scarb 和 katana来编译、部署用 Cairo 编写的 Starknet 智能合约，并与之交互。"
+msgstr "在本章中，你将学习如何使用 starkli、scarb 和 katana 来编译、部署用 Cairo 编写的 Starknet 智能合约并与之交互。"
 
 #: src/ch02-02-starkli-scarb-katana.md:6
-#, fuzzy
 msgid "First, confirm that the following commands work on your system. If they don’t, refer to Basic Installation in this chapter."
 msgstr "首先，请确认以下命令在您的系统上是否有效。如果不行，请参阅本章的基本安装。"
 
@@ -1648,36 +1629,32 @@ msgid "# For Cairo code compilation\n"
 msgstr ""
 
 #: src/ch02-02-starkli-scarb-katana.md:11 src/ch02-05-testnet-deployment.md:9
-#, fuzzy
 msgid "# To interact with Starknet\n"
-msgstr "## 与Starknet合约交互"
+msgstr ""
 
 #: src/ch02-02-starkli-scarb-katana.md:12
 msgid "# To declare and deploy on local development\n"
 msgstr ""
 
 #: src/ch02-02-starkli-scarb-katana.md:15
-#, fuzzy
 msgid "Crafting a Starknet Smart Contract"
-msgstr "## 从头编写一个Starknet智能合约"
+msgstr "从头编写一个 Starknet 智能合约"
 
 #: src/ch02-02-starkli-scarb-katana.md:17
 msgid "**Important:** Before we proceed with this example, please ensure that the versions of both `katana` and `starkli` match the specified versions provided below."
-msgstr ""
+msgstr "**重要提示**：在继续本例之前，请确保 katana 和 starkli 的版本与下面提供的指定版本一致。"
 
 #: src/ch02-02-starkli-scarb-katana.md:24
 msgid "If this is not your case, you have to install them like this:"
-msgstr ""
+msgstr "如果与上面版本不一致，可以这样安装它们："
 
 #: src/ch02-02-starkli-scarb-katana.md:31
-#, fuzzy
 msgid "Now begin by initiating a Scarb project:"
 msgstr "首先启动一个 Scarb 项目："
 
 #: src/ch02-02-starkli-scarb-katana.md:37
-#, fuzzy
 msgid "Configure Environment Variables and the `Scarb.toml` File"
-msgstr "## 配置环境变量和 `Scarb.toml` 文件"
+msgstr "配置环境变量和 `Scarb.toml` 文件"
 
 #: src/ch02-02-starkli-scarb-katana.md:39
 msgid "Review the `my_contract` project. Its structure appears as:"
@@ -6402,7 +6379,7 @@ msgstr "首先创建一个名为`src/erc20.cairo`的新文件。在该文件中�
 
 #: src/ch02-09-02-erc20-ui.md:99 src/ch02-10-01-erc20-ui.md:98
 msgid "Now edit `src/lib.cairo` and replace the content with:"
-msgstr "现在编辑 `src/lib.cairo`，将内容替换为"
+msgstr "现在编辑 `src/lib.cairo`，将内容替换为："
 
 #: src/ch02-09-02-erc20-ui.md:107 src/ch02-10-01-erc20-ui.md:106
 msgid "Upon completing your contract, proceed to compile it using Scarb:"
@@ -8825,9 +8802,8 @@ msgid "Follow the instructions and then run: `snfoundryup`"
 msgstr ""
 
 #: src/ch02-13-foundry-forge.md:61
-#, fuzzy
 msgid "Check your `snforge` version, run : `snforge version`"
-msgstr "确保标签版本与您的 `snforge` 版本一致。验证您的 `snforge` 版本："
+msgstr "确保标签版本与您的 `snforge` 版本一致。验证您的 `snforge` 版本"
 
 #: src/ch02-13-foundry-forge.md:64
 msgid "As athe time of this tutorial, we used `snforge` version `snforge 0.16.0` which is the latest at this time."
@@ -8914,7 +8890,7 @@ msgstr "导航至软件包目录，然后使用此命令运行测试："
 
 #: src/ch02-13-foundry-forge.md:117
 msgid "Sample output might resemble:"
-msgstr "输出示例可能类似于"
+msgstr "输出示例可能类似于："
 
 #: src/ch02-13-foundry-forge.md:129
 #, fuzzy
@@ -8993,7 +8969,7 @@ msgstr ""
 
 #: src/ch02-13-foundry-forge.md:218
 msgid "To run the test, execute the `snforge` command. The expected output is:"
-msgstr "要运行测试，请执行 `snforge` 命令。预期输出为"
+msgstr "要运行测试，请执行 `snforge` 命令。预期输出为："
 
 #: src/ch02-13-foundry-forge.md:229
 #, fuzzy
