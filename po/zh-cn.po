@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Starknet Book\n"
 "POT-Creation-Date: 2024-04-07T21:56:52+08:00\n"
-"PO-Revision-Date: 2024-04-09 11:09+0800\n"
+"PO-Revision-Date: 2024-05-13 10:03+0800\n"
 "Last-Translator: StarknetAstro <cryptonerdcn@gmail.com>\n"
 "Language-Team: Language zh-cn\n"
 "Language: zh_CN\n"
@@ -53,31 +53,26 @@ msgid "Testnet Deployment"
 msgstr "测试网部署"
 
 #: src/SUMMARY.md:18
-#, fuzzy
 msgid "Get started with Sepolia"
-msgstr "## 开始使用Katana"
+msgstr "从 Sepolia 开始"
 
 #: src/SUMMARY.md:19 src/ch02-06-starkli.md:1
-#, fuzzy
 msgid "Starkli: Querying Starknet"
-msgstr "Starkli: Querying the Blockchain 🚧"
+msgstr "Starkli：区块链查询 🚧"
 
 #: src/SUMMARY.md:20
-#, fuzzy
 msgid "Example - Beginner: Connection Script"
-msgstr "示例 - 部署脚本"
+msgstr "Example - Beginner: Connection Script"
 
 #: src/SUMMARY.md:21 src/ch02-07-starknet-devnet.md:1
-#, fuzzy
 msgid "Starknet Devnet"
-msgstr "Starknet Devnet 🚧"
+msgstr "Starknet Devnet "
 
 #: src/SUMMARY.md:22
 msgid "Foundry Cast: Interacting with Starknet"
 msgstr "Foundry Cast: 与 Starknet 交互"
 
 #: src/SUMMARY.md:23
-#, fuzzy
 msgid "Example - Intermediate: Deployment Script"
 msgstr "示例 - 部署脚本"
 
@@ -86,12 +81,10 @@ msgid "Starknet-js: Javascript SDK"
 msgstr "Starknet-js：Javascript SDK"
 
 #: src/SUMMARY.md:25
-#, fuzzy
 msgid "Example - Beginner: Counter UI"
 msgstr "初学者 - 计数器 UI"
 
 #: src/SUMMARY.md:26 src/SUMMARY.md:28
-#, fuzzy
 msgid "Example - Beginner: ERC-20 UI"
 msgstr "初学者 - ERC-20 UI"
 
@@ -100,7 +93,6 @@ msgid "Starknet-React: React Integration"
 msgstr "Starknet-React: React 集成"
 
 #: src/SUMMARY.md:29
-#, fuzzy
 msgid "Example - Intermediate: Million Dollar Homepage"
 msgstr "中级 - 百万美元级别的主页"
 
@@ -117,29 +109,28 @@ msgid "Foundry Forge: Testing"
 msgstr "Foundry Forge: 测试工具"
 
 #: src/SUMMARY.md:33 src/ch02-14-security-considerations.md:1
-#, fuzzy
 msgid "Security Considerations"
-msgstr "## 考量"
+msgstr "安全考量"
 
 #: src/SUMMARY.md:34
 msgid "Security Tools"
-msgstr ""
+msgstr "安全工具"
 
 #: src/SUMMARY.md:35
 msgid "Cairo-fuzzer"
-msgstr ""
+msgstr "Cairo-fuzzer"
 
 #: src/SUMMARY.md:36 src/ch02-15-02-caracal.md:1
 msgid "Caracal"
-msgstr ""
+msgstr "Caracal"
 
 #: src/SUMMARY.md:37 src/ch02-15-03-thoth.md:1
 msgid "Thoth"
-msgstr ""
+msgstr "Thoth"
 
 #: src/SUMMARY.md:38 src/ch02-16-apibara.md:1
 msgid "Apibara"
-msgstr ""
+msgstr "Apibara"
 
 #: src/SUMMARY.md:40 src/SUMMARY.md:42 src/ch03-00-architecture.md:1
 msgid "Architecture"
@@ -159,7 +150,7 @@ msgstr "费用机制"
 
 #: src/SUMMARY.md:46 src/ch03-01-03-data-availability.md:1
 msgid "Data Availability"
-msgstr ""
+msgstr "数据可用性"
 
 #: src/SUMMARY.md:47 src/ch03-00-architecture.md:51 src/ch03-02-sequencers.md:1
 msgid "Sequencers"
@@ -167,20 +158,19 @@ msgstr "排序器"
 
 #: src/SUMMARY.md:48 src/ch03-02-01-madara.md:1
 msgid "Madara 🚧"
-msgstr ""
+msgstr "Madara 🚧"
 
 #: src/SUMMARY.md:49
 msgid "Provers 🚧"
 msgstr "证明器 🚧"
 
 #: src/SUMMARY.md:50 src/ch03-00-architecture.md:167 src/ch03-04-nodes.md:1
-#, fuzzy
 msgid "Nodes"
-msgstr "节点 🚧"
+msgstr "节点"
 
 #: src/SUMMARY.md:51
 msgid "Example: Pathfinder Node"
-msgstr ""
+msgstr "Example: Pathfinder Node"
 
 #: src/SUMMARY.md:52
 msgid "Layer 3 and App Chains 🚧 "
@@ -195,18 +185,16 @@ msgid "Decentralization 🚧"
 msgstr "去中心化 🚧"
 
 #: src/SUMMARY.md:55
-#, fuzzy
 msgid "Smart Contracts 🚧"
-msgstr "约束 🚧"
+msgstr "智能合约 🚧"
 
 #: src/SUMMARY.md:56 src/ch01-00-getting-started.md:305
-#, fuzzy
 msgid "Deployment and Interaction"
-msgstr "### 部署和交互"
+msgstr "部署和交互"
 
 #: src/SUMMARY.md:57
 msgid "Important Methods"
-msgstr ""
+msgstr "重要方法"
 
 #: src/SUMMARY.md:59 src/SUMMARY.md:61 src/ch04-00-account-abstraction.md:1 src/ch04-05-03-auto-payments.md:29
 msgid "Account Abstraction"
@@ -217,17 +205,14 @@ msgid "Accounts"
 msgstr "账户"
 
 #: src/SUMMARY.md:63
-#, fuzzy
 msgid "Hello, Account Contract!"
 msgstr "你好，账户！"
 
 #: src/SUMMARY.md:64 src/ch04-03-standard-account.md:1
-#, fuzzy
 msgid "Standard Account Contract"
-msgstr "标准账户 🚧"
+msgstr "标准账户"
 
 #: src/SUMMARY.md:65
-#, fuzzy
 msgid "Deploy Standard Account"
 msgstr "部署账户"
 
@@ -236,9 +221,8 @@ msgid "Examples"
 msgstr "示例"
 
 #: src/SUMMARY.md:67
-#, fuzzy
 msgid "Multicaller"
-msgstr "Multicaller 🚧"
+msgstr "Multicaller"
 
 #: src/SUMMARY.md:68
 msgid "Multisig 🚧"
@@ -257,9 +241,8 @@ msgid "Web Wallet: seedless, multi-device wallet"
 msgstr ""
 
 #: src/SUMMARY.md:73
-#, fuzzy
 msgid "STARKs"
-msgstr "STARKs 🚧"
+msgstr "STARKs"
 
 #: src/SUMMARY.md:75
 msgid "STARKs 🚧"
@@ -326,21 +309,18 @@ msgid "STARKs Protocol (Rust) 🚧"
 msgstr "STARKs 协议（Rust） 🚧"
 
 #: src/title-page.md:3
-#, fuzzy
 msgid ""
 "The Starknet Book is a work in progress, shaped by ongoing community input. Some sections may be incomplete or still under review and are marked under a 🚧 emoji. We welcome your suggestions, "
 "feedback, and content contributions to make this book a reliable guide for everyone."
 msgstr "Starknet Book 是一个由社区的持续贡献的尚在撰写中的作品。某些部分可能不完整或仍在被审校中，这些部分会被用🚧表情符号进行标记。我们欢迎您的建议、反馈和内容贡献，来使得本书成为所有开发者的可靠指南。"
 
 #: src/title-page.md:8
-#, fuzzy
 msgid "The Starknet Book is a step-by-step guide aimed at teaching you the essentials of Starknet development. It’s a community effort, with each chapter guiding you through the Starknet ecosystem."
 msgstr ""
 "Starknet Book 是一本循序渐进的指南，旨在向你传授Starknet 开发的基本知识。这本书由社区的合力撰写，每一章都会引导你了解Starknet 的生态系统。中文版由[StarknetAstro](https://twitter.com/StarknetAstroCN)翻"
 "译。"
 
 #: src/title-page.md:12
-#, fuzzy
 msgid ""
 "Understanding Cairo, the key programming language for Starknet smart contracts, is crucial. That’s why this book works hand-in-hand with the Cairo Book, another community resource. You can access the "
 "Cairo Book [**here**](https://book.cairo-lang.org/)."
@@ -348,16 +328,14 @@ msgstr ""
 "了解在Starknet 智能合约中处于关键位置的编程语言Cairo，是至关重要的。因此，本书与另一个由社区编写的《Cairo之书》（Cairo Book）携手合作。你可以从[**这里**](https://book.cairo-lang.org/)访问Cairo Book。"
 
 #: src/title-page.md:17
-#, fuzzy
 msgid ""
 "In short, the Cairo Book helps you master Cairo, while The Starknet Book focuses on Starknet’s specific features. For a well-rounded understanding, we recommend exploring both. This book will "
 "introduce you to tools, architecture, account setups, STARKs, and Starknet-specific apps."
 msgstr "简而言之，Cairo Book 帮助您掌握Cairo语言，而Starknet Book则侧重于Starknet的具体功能。为了全面了解，我们建议您同时阅读这两本书。本书将向你介绍工具、架构、账户设置、STARK 和Starknet专用应用程序。"
 
 #: src/title-page.md:23
-#, fuzzy
 msgid "Table of Contents"
-msgstr "## 内容目录"
+msgstr "内容目录"
 
 #: src/title-page.md:25
 msgid "**Chapter Titles**"
@@ -365,162 +343,150 @@ msgstr "**章节标题**"
 
 #: src/title-page.md:27
 msgid "Chapter"
-msgstr ""
+msgstr "章节"
 
 #: src/title-page.md:27
 msgid "Description"
-msgstr ""
+msgstr "说明"
 
 #: src/title-page.md:29
-#, fuzzy
 msgid "1: Starknet Introduction"
-msgstr "介绍"
+msgstr "1：Starknet 介绍"
 
 #: src/title-page.md:29
 msgid "Delve into the fundamental concepts of Starknet and acquaint yourself with the deployment of smart contracts."
-msgstr ""
+msgstr "深入探索 Starknet 的基本概念，并熟悉智能合约的部署过程。"
 
 #: src/title-page.md:30
-#, fuzzy
 msgid "2: Starknet Tooling"
-msgstr "# Starknet工具"
+msgstr "2：Starknet工具"
 
 #: src/title-page.md:30
 msgid ""
 "Familiarize yourself with vital tools, such as Starkli, Katana, Scarb, Starknet-Foundry and more. Explore how languages like Javascript, Python, and Rust can be leveraged for Starknet interactions."
-msgstr ""
+msgstr "熟悉关键工具，如 Starkli、Katana、Scarb、Starknet-Foundry 等。探索如何利用 Javascript、Python 和 Rust 等语言与 Starknet 进行交互。"
 
 #: src/title-page.md:31
-#, fuzzy
 msgid "3: Starknet Architecture"
-msgstr "# 架构"
+msgstr "3：架构"
 
 #: src/title-page.md:31
 msgid "Uncover Starknet’s core structure, gaining insights into the transaction lifecycle and the interplay between the Sequencer, Prover, and Nodes."
-msgstr ""
+msgstr "了解 Starknet 的核心结构，深入理解交易生命周期以及 Sequencer（序列生成器）、Prover（验证者）和 Nodes（节点）之间的相互作用。"
 
 #: src/title-page.md:32
-#, fuzzy
 msgid "4: Account Abstraction"
 msgstr "4: 账户抽象"
 
 #: src/title-page.md:32
 msgid "Delve deep into Starknet’s unique approach to user accounts, and master the art of crafting custom accounts."
-msgstr ""
+msgstr "深入了解 Starknet 对用户账户的独特处理方式，并掌握定制账户的技巧。"
 
 #: src/title-page.md:33
-#, fuzzy
 msgid "5: STARKs"
-msgstr "STARKs 🚧"
+msgstr "STARKs"
 
 #: src/title-page.md:33
 msgid "Dive into the intricacies of STARKs and their pivotal role in shaping Starknet’s landscape."
-msgstr ""
+msgstr "深入研究 STARKs 的复杂性及其在塑造 Starknet 生态系统中的关键作用。"
 
 #: src/title-page.md:35
-#, fuzzy
 msgid "Where to Start?"
 msgstr "从哪里开始？"
 
 #: src/title-page.md:37
-#, fuzzy
 msgid "Depending on your goals and interests, you can choose different paths through the Starknet Book. Here are some recommendations based on various objectives:"
 msgstr "根据您的目标和兴趣，您可以在Starknet Book中选择不同的学习路径。下面是一些基于不同目标的建议："
 
 #: src/title-page.md:41
 msgid "If you’re a **complete beginner** and want to start learning about Cairo and Starknet from scratch, follow the book in its entirety, starting with **Introduction to Starknet**."
-msgstr ""
+msgstr "如果你是 **完全的初学者**，想从头开始学习 Cairo 和 Starknet，请从 **Starknet 介绍** 开始，完整地阅读本书。"
 
 #: src/title-page.md:45
 msgid ""
 "If you’re an **experienced developer** looking to quickly dive into writing scalable and decentralized smart contracts, focus on the Cairo Book, particularly **chapter 12: Starknet Smart Contracts** "
 "([link](https://book.cairo-lang.org/ch13-00-introduction-to-starknet-smart-contracts.html))."
 msgstr ""
+"如果你是 **有经验的开发者**，希望快速开始编写可扩展的去中心化智能合约，重点阅读 Cairo 书籍，特别是第12章：**Starknet 智能合约**（[链接](https://book.cairo-lang.org/ch13-00-introduction-to-starknet-"
+"smart-contracts.html)）。"
 
 #: src/title-page.md:50
 msgid "If you’re a **frontend developer** wanting to integrate Starknet with a React frontend using Javascript, prioritize the **starknet-js** and **starknet-react** subchapters in **Starknet Tooling**"
-msgstr ""
+msgstr "如果你是 **前端开发者**，希望使用 Javascript 将 Starknet 与 React 前端集成，优先考虑 **Starknet Tooling** 中的 **starknet-js** 和 **starknet-react** 子章节"
 
 #: src/title-page.md:55
 msgid "If you’re a **DevOps engineer** or **node operator** interested in running a Starknet node and indexer, head straight to **Starknet Architecture**."
-msgstr ""
+msgstr "如果你是 **DevOps 工程师**或**节点运营者** ，对运行 Starknet 节点和索引器感兴趣，直接前往Starknet 架构。"
 
 #: src/title-page.md:59
 msgid "If you’re a **security researcher** or **smart contract auditor** wanting to learn about the Account Abstraction feature and its implications, go for **Account Abstraction**."
-msgstr ""
+msgstr "如果你是**安全研究员**或**智能合约审计员**，想了解账户抽象功能及其影响，选择**账户抽象**。"
 
 #: src/title-page.md:63
 msgid "If you’re a **blockchain enthusiast** curious about the underlying architecture and mechanics of Starknet and Cairo, explore **Starknet Architecture**."
-msgstr ""
+msgstr "如果你是**区块链爱好者**，对 Starknet 和 Cairo 的底层架构及机制感兴趣，选择 **Starknet 架构**。"
 
 #: src/title-page.md:67
 msgid "If you’re a **cryptography expert** or **researcher** eager to understand the fundamentals of STARKs and their connection to the Starknet ecosystem, delve into **STARKs**."
-msgstr ""
+msgstr "如果你是**密码学专家**或**研究员**，渴望理解 STARKs 的基础知识及其与 Starknet 生态系统的联系，请深入研究 **STARKs**。"
 
 #: src/title-page.md:71
-#, fuzzy
 msgid "Feel free to mix and match these paths based on your unique interests and requirements."
 msgstr "您可以根据自己的独特兴趣和要求自由搭配这些学习路径。"
 
 #: src/title-page.md:74
-#, fuzzy
 msgid "Your Contributions Matter"
-msgstr "# 您的贡献很重要"
+msgstr "您的贡献很重要"
 
 #: src/title-page.md:76
-#, fuzzy
 msgid ""
 "Welcome aboard! By contributing to the Starknet Book, you’re doing more than sharing expertise—you’re shaping the future of decentralized tech. Let’s build a guide that helps developers unlock "
 "Starknet’s potential."
 msgstr "欢迎加入！通过为《Starknet Book》做出贡献，您所做的不仅仅是分享专业知识，您还在塑造去中心化技术的未来。让我们共同打造一本帮助开发者释放Starknet潜力的指南。"
 
 #: src/title-page.md:80
-#, fuzzy
 msgid ""
 "For detailed contribution guidelines, visit the [Contributors Guide](https://github.com/starknet-edu/starknetbook/blob/main/README.md#contribution). Every contribution counts. Your skills and passion "
 "will help make this book an invaluable tool."
 msgstr "有关详细的投稿指南，请访问 [Contributors Guide](https://github.com/starknet-edu/starknetbook/blob/main/CONTRIBUTING.adoc)。每一份贡献都很重要。您的技能和热情将帮助本书成为一本宝贵的工具书。"
 
 #: src/title-page.md:85
-#, fuzzy
 msgid "How You Can Help"
-msgstr "## 您可以如何提供帮助"
+msgstr "您可以如何提供帮助"
 
 #: src/title-page.md:87
 msgid "Found an empty section? Fill it in!"
-msgstr ""
+msgstr "发现了空白部分？补充它们！"
 
 #: src/title-page.md:89
 msgid "Think we need a new section? Suggest one."
-msgstr ""
+msgstr "认为我们需要一个新的部分？提出建议。"
 
 #: src/title-page.md:91
 msgid "See room for improvement? Go ahead and tweak it."
-msgstr ""
+msgstr "看到改进的空间？放手去做。"
 
 #: src/title-page.md:93
 msgid "Want to add code in a new programming language? Go for it."
-msgstr ""
+msgstr "想在新的编程语言中添加代码？尽管尝试。"
 
 #: src/title-page.md:95
 msgid "Found a bug? Fix it."
-msgstr ""
+msgstr "发现了错误？修复它。"
 
 #: src/title-page.md:97
 msgid "Exercises unclear? Add explanations."
-msgstr ""
+msgstr "练习不清楚？添加说明。"
 
 #: src/title-page.md:99
 msgid "Show off your favorite Cairo features through new exercises."
-msgstr ""
+msgstr "通过新的练习展示你最喜欢的 Cairo 特性。"
 
 #: src/title-page.md:101
-#, fuzzy
 msgid "Additional Key Educational Resources"
-msgstr "# 其他重要教育资源"
+msgstr "其他重要教育资源"
 
 #: src/title-page.md:103
-#, fuzzy
 msgid "We’ve compiled a list of valuable educational resources that will help deepen your understanding and enhance your skills in coding with Cairo and staying abreast with Starknet developments:"
 msgstr "我们编撰了一份有价值的教育资源清单，这些资源将有助于加深您对Cairo语言的理解，提高您的技能，并紧跟Starknet发展的步伐："
 
@@ -528,35 +494,33 @@ msgstr "我们编撰了一份有价值的教育资源清单，这些资源将有
 msgid ""
 "**Starklings**: A resource specifically designed to guide you through learning Cairo programming, ensuring that you reach a proficient level. You can access it [here](https://github.com/shramee/"
 "starklings-cairo1)."
-msgstr ""
+msgstr "**Starklings**：一个专门设计来引导你学习 Cairo 编程的资源，确保你达到熟练的水平。你可以在[这里](https://github.com/shramee/starklings-cairo1)访问它。"
 
 #: src/title-page.md:112
 msgid "**Starknet Community Forum**: An online platform where you can engage in discussions about the latest developments in Starknet. Join the conversation [here](https://community.starknet.io/)."
-msgstr ""
+msgstr "**Starknet 社区论坛**：一个在线平台，你可以在这里参与关于 Starknet 最新发展的讨论。加入[这里](https://community.starknet.io/)。"
 
 #: src/title-page.md:116
 msgid "**Starknet Documentation**: You can browse through the documentation [here](https://docs.starknet.io/)."
-msgstr ""
+msgstr "**Starknet 文档**：你可以浏览[文档](https://docs.starknet.io/)。"
 
 #: src/title-page.md:119
 msgid "**Cairo Documentation**: Explore it [here](https://www.cairo-lang.org/docs)."
-msgstr ""
+msgstr "**Cairo 文档**： 在[这里](https://www.cairo-lang.org/docs)访问。"
 
 #: src/title-page.md:122
 msgid ""
 "**Starknet Developer Telegram (English)**: A community for English-speaking Starknet developers. This is a great platform for networking, sharing ideas, and troubleshooting together. Join us on "
 "Telegram [here](https://t.me/starknetna)."
-msgstr ""
+msgstr "**Starknet 开发者电报群（英语）**：一个英语交流的 Starknet 开发者社区。这是一个进行网络联系、分享想法及共同解决问题的绝佳平台。在 [Telegram](https://t.me/starknetna) 上加入我们。"
 
 #: src/ch00-00-introduction.md:1
-#, fuzzy
 msgid "The Starknet Network"
-msgstr "# Starknet网络"
+msgstr "Starknet网络"
 
 #: src/ch00-00-introduction.md:3
-#, fuzzy
 msgid "Preamble"
-msgstr "## 序言"
+msgstr "序言"
 
 #: src/ch00-00-introduction.md:5
 msgid ""
@@ -573,19 +537,15 @@ msgstr "中本聪创造的比特币，为这些功能引入了一种新颖的方
 
 #: src/ch00-00-introduction.md:9
 msgid "Is openly described by a public protocol."
-msgstr ""
+msgstr "通过公共协议公开描述。"
 
 #: src/ch00-00-introduction.md:10
 msgid "Operates over a wide, inclusive, peer-to-peer network."
-msgstr ""
+msgstr "通过广泛、包容的点对点网络运行。"
 
 #: src/ch00-00-introduction.md:11
-#, fuzzy
 msgid "Distributes value fairly and extensively to maintain societal consensus on its integrity."
-msgstr ""
-"1.通过公共协议公开描述。\n"
-"2.通过广泛、包容的点对点网络运行。\n"
-"3.公平、广泛地分配价值，以保持社会对其完整性的共识。"
+msgstr "公平、广泛地分配价值，以保持社会对其完整性的共识。"
 
 #: src/ch00-00-introduction.md:13
 msgid ""
@@ -597,9 +557,8 @@ msgstr ""
 "完整性。然而，这意味着它们很难满足全球级的需求。"
 
 #: src/ch00-00-introduction.md:15
-#, fuzzy
 msgid "Defining \"Blockchain\""
-msgstr "## 定义 \"区块链\""
+msgstr "定义 \"区块链\""
 
 #: src/ch00-00-introduction.md:17
 msgid ""
@@ -613,19 +572,19 @@ msgstr ""
 msgid ""
 "**Public Protocol:** The foundation of a Blockchain rests upon a protocol that is openly available. This transparency ensures that any interested party can understand its workings, fostering trust and "
 "enabling wider adoption."
-msgstr ""
+msgstr "**公开协议**：区块链的基础依托于一个公开可用的协议。这种透明性确保任何感兴趣的参与方都能理解其工作原理，促进信任并使得更广泛的采用成为可能。"
 
 #: src/ch00-00-introduction.md:20
 msgid ""
 "**Open P2P Network:** Instead of relying on a centralized entity, a Blockchain operates over a peer-to-peer (P2P) network. This decentralized approach ensures that operations are distributed across "
 "various participants or nodes, making the system more resilient to failures and censorship."
-msgstr ""
+msgstr "**开放的 P2P 网络**：区块链不依赖于中心化实体，而是在点对点（P2P）网络上运行。这种去中心化的方法确保操作分布在各个参与者或节点之间，使系统对故障和审查更具有抵抗力。"
 
 #: src/ch00-00-introduction.md:21
 msgid ""
 "**Value Distribution:** Central to the Blockchain's operation is the way it rewards its operators. The system autonomously distributes value in a manner that is wide-ranging and equitable. This "
 "incentivization not only motivates participants to maintain the system's integrity but also ensures a broader societal consensus."
-msgstr ""
+msgstr "**价值分配**：区块链运作的核心是其奖励操作者的方式。系统以广泛且公平的方式自动分配价值。这种激励不仅促使参与者维护系统的完整性，还确保了更广泛的社会共识。"
 
 #: src/ch00-00-introduction.md:23
 msgid ""
@@ -634,9 +593,8 @@ msgid ""
 msgstr "虽然这些特性抓住了许多区块链的本质，但随着技术的成熟和新应用的出现，该术语的定义可能依然需要完善。在这一动态环境中，持续的对话和重新审视定义至关重要。"
 
 #: src/ch00-00-introduction.md:25
-#, fuzzy
 msgid "Starknet Definition"
-msgstr "## Starknet的定义"
+msgstr "Starknet的定义"
 
 #: src/ch00-00-introduction.md:27
 msgid ""
@@ -654,18 +612,16 @@ msgstr ""
 "普遍可用的工具验证Starknet的完整性（[Eli Ben-Sasson、Bareli、Brandt、Volokh，2023](https://hackmd.io/@Elibensasson/ryMelVulp)）。"
 
 #: src/ch00-00-introduction.md:31
-#, fuzzy
 msgid "Starknet’s Mission"
-msgstr "## Starknet的使命"
+msgstr "Starknet的使命"
 
 #: src/ch00-00-introduction.md:33
 msgid "_Starknet’s mission is to allow individuals to freely implement and use any social function they desire._"
 msgstr "_Starknet的使命是允许个人自由实现和使用他们所希望的任何社会机能。_"
 
 #: src/ch00-00-introduction.md:35
-#, fuzzy
 msgid "Starknet’s Values"
-msgstr "## Starknet的价值观"
+msgstr "Starknet的价值观"
 
 #: src/ch00-00-introduction.md:37
 msgid "Starknet's ethos is anchored in core principles ([Eli Ben-Sasson, Bareli, Brandt, Volokh, 2023](https://hackmd.io/@Elibensasson/ryMelVulp)):"
@@ -673,42 +629,41 @@ msgstr "Starknet的精神是以核心原则为基础的（[Eli Ben-Sasson、Bare
 
 #: src/ch00-00-introduction.md:39
 msgid "**Lasting Broadness.** Starknet continuously resists power consolidation. Key points include:"
-msgstr ""
+msgstr "**持久广泛性** Starknet 持续抵制权力集中。关键点包括："
 
 #: src/ch00-00-introduction.md:41
 msgid "Broad power distribution underpins Starknet's legitimacy and must persist across operations and decision-making. While centralized operation may be necessary at times, it should be short-lived."
-msgstr ""
+msgstr "广泛的权力分配是 Starknet 合法性的基础，必须在运营和决策中持续存在。虽然有时可能需要中心化运作，但应该是短暂的。"
 
 #: src/ch00-00-introduction.md:42
 msgid "Starknet's protocol and governance should always be open and transparent."
-msgstr ""
+msgstr "Starknet 的协议和治理应始终开放和透明。"
 
 #: src/ch00-00-introduction.md:43
 msgid "Governance should bolster inclusivity, with a flexible structure that can evolve to ensure enduring inclusivity."
-msgstr ""
+msgstr "治理应增强包容性，具有灵活的结构，能够发展以确保持久的包容性。"
 
 #: src/ch00-00-introduction.md:45
 msgid "**Neutrality.** Starknet remains impartial to the societal functions it supports."
-msgstr ""
+msgstr "**中立性**。Starknet 对其支持的社会功能保持中立。"
 
 #: src/ch00-00-introduction.md:47
 msgid "The objectives and ethos of functions on Starknet lie with their creators."
-msgstr ""
+msgstr "Starknet 上功能的目标和精神由其创造者决定。"
 
 #: src/ch00-00-introduction.md:48
 msgid "**Censorship resistance:** Starknet remains agnostic to the nature and meaning of user transactions."
-msgstr ""
+msgstr "**抗审查性**：Starknet 对用户交易的性质和意义保持中立。"
 
 #: src/ch00-00-introduction.md:50
 msgid ""
 "**Individual Empowerment.** At its core, Starknet thrives on a well-informed and autonomous user base. This is achieved by fostering a culture rooted in its core mission and values, with a strong "
 "emphasis on education."
-msgstr ""
+msgstr "**个人赋能** Starknet 的核心是一个信息充分且自主的用户基础。通过培养根植于其核心使命和价值观的文化，强调教育来实现这一点。"
 
 #: src/ch00-00-introduction.md:52
-#, fuzzy
 msgid "Key Features"
-msgstr "## 关键特性"
+msgstr "关键特性"
 
 #: src/ch00-00-introduction.md:54
 msgid "These are some key features of Starknet:"
@@ -716,60 +671,47 @@ msgstr "这些是Starknet的一些关键特性："
 
 #: src/ch00-00-introduction.md:56
 msgid "Low Costs: Transactions on Starknet cost less than on Ethereum. Future updates like Volition and EIP 4844 will make it even cheaper."
-msgstr ""
+msgstr "低成本：Starknet 上的交易成本低于以太坊。未来的更新，如 Volition 和 EIP 4844，将使其成本更低。"
 
 #: src/ch00-00-introduction.md:59
 msgid "Developer-Friendly: Starknet lets developers easily build decentralized apps using its native language, Cairo."
-msgstr ""
+msgstr "开发者友好：Starknet 允许开发者使用其原生语言 Cairo 轻松构建去中心化应用。"
 
 #: src/ch00-00-introduction.md:62
 msgid "Speed and Efficiency: Upcoming releases aim to make transactions even faster and cheaper."
-msgstr ""
+msgstr "速度和效率：即将发布的更新旨在使交易更快、更便宜。"
 
 #: src/ch00-00-introduction.md:65
 msgid ""
 "CVM: Thanks to Cairo, Starknet runs on it's own VM, called Cairo VM (CVM), that allow us to innovate beyond the Ethereum Virtual Machine (EVM) and create a new paradigm for decentralized applications."
-msgstr ""
+msgstr "CVM：得益于 Cairo，Starknet 运行在其自有的虚拟机 Cairo VM (CVM) 上，这使我们能够超越以太坊虚拟机 (EVM) 的创新，并为去中心化应用创建新范式。"
 
 #: src/ch00-00-introduction.md:69
-#, fuzzy
 msgid "Here are some of them:"
 msgstr "这里有一些例子："
 
 #: src/ch00-00-introduction.md:71
 msgid "Account Abstraction: Implemented at the protocol level, this facilitates diverse signing schemes while ensuring user security and self-custody of assets."
-msgstr ""
+msgstr "账户抽象：在协议层实现，这有助于支持多样化的签名方案，同时确保用户安全和资产的自我保管。"
 
 #: src/ch00-00-introduction.md:75
 msgid ""
 "Volition: Will be implemented on testnet during Q4 2023 will allow developers to regulate data availability on Ethereum (L1) or on Starknet (L2). Reducing L1 onchain data can radically reduce costs."
-msgstr ""
+msgstr "Volition：计划在 2023 年第四季度在测试网实施，将允许开发者在以太坊（L1）或 Starknet（L2）上调节数据可用性。减少 L1 链上数据可以大幅降低成本。"
 
 #: src/ch00-00-introduction.md:79
-#, fuzzy
 msgid ""
 "Paymaster: Starknet will allow users to choose how to pay for transaction fee, follows the guidelines laid out in EIP 4337 and allows the transaction to specify a specific contract, a **Paymaster**, "
 "to pay for their transaction. Supports gasless transactions, enhancing user accessibility."
 msgstr ""
-"- 账户抽象：在协议层面实施\n"
-"  在确保用户安全和资产自我保管的同时，为各种签名方案提供便利。\n"
-"\n"
-"- Volition：将于 2023 年第四季度在测试网上实施，将允许\n"
-"  开发者修改以太坊（L1）或Starknet（L2）上的数据可用性。减少 L1 的链上数据可以从根本上降低成本。\n"
-"\n"
-"- Paymaster：Starknet 将允许用户选择如何支付\n"
-"  交易费，遵循 EIP 4337 中规定的准则，并\n"
-"  允许交易指定一个特定的合约，即\n"
-"  **Paymaster**，以支付交易费用。支持无gas\n"
+"Paymaster：Starknet 将允许用户选择如何支付交易费，遵循 EIP 4337 中规定的准则，并允许交易指定一个特定的合约，即  **Paymaster**，以支付交易费用。支持无gas\n"
 "  交易，提高用户的使用便利性。"
 
 #: src/ch00-00-introduction.md:85
-#, fuzzy
 msgid "Cairo: The Language of Starknet"
-msgstr "## Cairo： Starknet的语言"
+msgstr "Cairo： Starknet的语言"
 
 #: src/ch00-00-introduction.md:87
-#, fuzzy
 msgid ""
 "Cairo is tailor-made for creating STARK-based smart contracts. As Starknet’s native language, it’s central to building scalable and secure decentralized apps. To start learning now, check out the "
 "[Cairo Book](https://book.cairo-lang.org/) and [Starklings](https://github.com/shramee/starklings-cairo1)."
@@ -778,39 +720,34 @@ msgstr ""
 "(https://github.com/shramee/starklings-cairo1)。"
 
 #: src/ch00-00-introduction.md:93
-#, fuzzy
 msgid "Inspired by Rust, Cairo lets you write contracts safely and conveniently."
 msgstr "Cairo受到 Rust 的启发， 并可以让你安全方便地编写合约。"
 
 #: src/ch00-00-introduction.md:96
-#, fuzzy
 msgid "Governance"
-msgstr "## 治理"
+msgstr "治理"
 
 #: src/ch00-00-introduction.md:98
-#, fuzzy
 msgid "The Starknet Foundation oversees Starknet’s governance. Its duties include:"
 msgstr "Starknet基金会负责监督Starknet的治理。其职责包括："
 
 #: src/ch00-00-introduction.md:101
 msgid "Managing Starknet’s development and operations"
-msgstr ""
+msgstr "管理 Starknet 的开发和运营"
 
 #: src/ch00-00-introduction.md:103
 msgid "Overseeing the Starknet DAO, which enables community involvement"
-msgstr ""
+msgstr "监督 Starknet DAO，这促进了社区的参与"
 
 #: src/ch00-00-introduction.md:105
 msgid "Setting rules to maintain network integrity"
-msgstr ""
+msgstr "制定规则以维护网络完整性"
 
 #: src/ch00-00-introduction.md:107
-#, fuzzy
 msgid "Our focus is on technical input and debate for improving the protocol. While we value all perspectives, it’s often the technical insights that steer us forward."
 msgstr "我们的工作重心是技术投入和改进协议的讨论。虽然我们重视所有的观点，但技术方面的见解往往是我们前进的方向。"
 
 #: src/ch00-00-introduction.md:111
-#, fuzzy
 msgid ""
 "Members can influence Starknet by voting on changes. Here’s the process: A new version is tested on the Goerli Testnet. Members then have six days to review it. A Snapshot proposal is made, and the "
 "community votes. A majority of _YES_ votes means an upgrade to the Mainnet."
@@ -827,12 +764,10 @@ msgid "To propose an improvement, create a SNIP."
 msgstr "要提出改进建议，请创建一个 SNIP。"
 
 #: src/ch00-00-introduction.md:120
-#, fuzzy
 msgid "SNIP: Starknet Improvement Proposals"
-msgstr "### SNIP：Starknet改进提案"
+msgstr "SNIP：Starknet改进提案"
 
 #: src/ch00-00-introduction.md:122
-#, fuzzy
 msgid ""
 "SNIP is short for Starknet Improvement Proposal. It’s essentially a blueprint that details proposed enhancements or changes to the Starknet ecosystem. A well-crafted SNIP includes both the technical "
 "specifications of the change and the reasons behind it. If you’re proposing a SNIP, it’s your job to rally community support and document any objections (more details [here](https://community.starknet."
@@ -849,24 +784,22 @@ msgstr "SNIP 有三个重要作用："
 
 #: src/ch00-00-introduction.md:135
 msgid "They are the main avenue for proposing new features or changes."
-msgstr ""
+msgstr "它们是提出新功能或更改的主要途径。"
 
 #: src/ch00-00-introduction.md:137
 msgid "They act as a platform for technical discussions within the community."
-msgstr ""
+msgstr "它们作为社区内技术讨论的平台。"
 
 #: src/ch00-00-introduction.md:140
 msgid "They document the decision-making process, offering a historical view of how Starknet has evolved."
-msgstr ""
+msgstr "它们记录决策过程，提供了 Starknet 发展历史的视角。"
 
 #: src/ch00-00-introduction.md:143
-#, fuzzy
 msgid ""
 "Because SNIPs are stored as text files in a [version-controlled repository](https://github.com/starknet-io/SNIPs/tree/main/SNIPS), you can easily track changes and understand the history of proposals."
 msgstr "由于 SNIP 以文本文件的形式存储在[版本控制仓库](https://github.com/starknet-io/SNIPs)中，因此您可以轻松地跟踪更改并了解提案的历史。"
 
 #: src/ch00-00-introduction.md:147
-#, fuzzy
 msgid ""
 "For those who are building on Starknet, SNIPs aren’t just suggestions—they’re a roadmap. It’s beneficial for implementers to keep a list of the SNIPs they’ve executed. This transparency helps users "
 "gauge the state of a particular implementation or software library."
@@ -1761,9 +1694,8 @@ msgstr ""
 "如果遇到 `\"Error: Invalid contract class\"`，这很可能意味着你的 Scarb 编译器版本与 Starkli 不兼容。请按照上面的步骤调整版本。Starkli 通常支持主网接受的编译器版本，即使 Scarb 的最新版本还不兼容。"
 
 #: src/ch02-02-starkli-scarb-katana.md:142
-#, fuzzy
 msgid "Upon successful command execution, you'll obtain a contract class hash: This unique hash serves as the identifier for your contract class within Starknet. For example:"
-msgstr "运行该命令后，您将收到一个合约的class hash（类哈希）。这个唯一的哈希值是您的合约类在Starknet中的标识符。例如:"
+msgstr "运行该命令后，您将收到一个合约的class hash（类哈希）。这个唯一的哈希值是合约类在Starknet中的标识符。例如:"
 
 #: src/ch02-02-starkli-scarb-katana.md:150
 msgid "Consider this hash as the contract class's _address_."
@@ -1774,9 +1706,8 @@ msgid "If you try to declare an already existing contract class, don't fret. Jus
 msgstr "如果您尝试声明一个已经存在的合约类，请不要担心只管继续。你可能会看到："
 
 #: src/ch02-02-starkli-scarb-katana.md:159
-#, fuzzy
 msgid "Deploying Starknet Smart Contracts"
-msgstr "## 部署Starknet智能合约"
+msgstr "部署Starknet智能合约"
 
 #: src/ch02-02-starkli-scarb-katana.md:161
 msgid "To deploy a smart contract on the katana local devnet, use the following command. It primarily requires:"
@@ -1784,14 +1715,11 @@ msgstr "要在 katana 本地开发网络上部署智能合约，请使用以下�
 
 #: src/ch02-02-starkli-scarb-katana.md:163
 msgid "Your contract's class hash."
-msgstr ""
+msgstr "待部署合约的类哈希。"
 
 #: src/ch02-02-starkli-scarb-katana.md:164
-#, fuzzy
 msgid "Constructor arguments your contract needs (in our example, a _name_ of type `felt252`)."
-msgstr ""
-"1.您合约的类哈希值。\n"
-"2.合约所需的构造函数参数（在我们的例子中，是一个 名为  _name_  的`felt252` 类型）。"
+msgstr "合约所需的构造函数参数（在我们的例子中，是一个 名为  _name_  的`felt252` 类型）。"
 
 #: src/ch02-02-starkli-scarb-katana.md:166
 msgid "Here's the command structure:"
@@ -1818,9 +1746,8 @@ msgid "After running, expect an output similar to:"
 msgstr "运行后，输出结果类似于："
 
 #: src/ch02-02-starkli-scarb-katana.md:209
-#, fuzzy
 msgid "Interacting with Starknet Contracts"
-msgstr "## 与Starknet合约交互"
+msgstr "与Starknet合约交互"
 
 #: src/ch02-02-starkli-scarb-katana.md:211
 msgid "Using Starkli, you can interact with smart contracts through two primary methods:"
@@ -1828,25 +1755,20 @@ msgstr "使用 Starkli，你可以通过两种主要方法与智能合约进行�
 
 #: src/ch02-02-starkli-scarb-katana.md:213
 msgid "`call`: For read-only functions."
-msgstr ""
+msgstr "`call`：用于只读函数。"
 
 #: src/ch02-02-starkli-scarb-katana.md:214
-#, fuzzy
 msgid "`invoke`: For functions that alter the state."
-msgstr ""
-"- `call`：用于只读函数。\n"
-"- `invoke`：用于改变状态的函数。"
+msgstr "`invoke`：用于改变合约状态的函数。"
 
 #: src/ch02-02-starkli-scarb-katana.md:216
-#, fuzzy
 msgid "Reading Data with `call`"
-msgstr "### 使用 `call` 读取数据"
+msgstr "使用 `call` 读取数据"
 
 #: src/ch02-02-starkli-scarb-katana.md:218
-#, fuzzy
 msgid ""
 "The `call` command let's you query contract functions without transacting. For instance, if you want to determine the current contract owner using the `get_name` function, which requires no arguments:"
-msgstr "`call`命令使你可以在不发送交易的情况下查询智能合约函数。例如，要想知道谁是合约的当前所有者，可以使用`get_owner`函数，该函数不需要参数："
+msgstr "`call`命令可在不发送交易的情况下调用智能合约函数查询状态。例如，要想知道谁是合约的当前所有者，可以使用`get_owner`函数，该函数不需要参数："
 
 #: src/ch02-02-starkli-scarb-katana.md:227
 #, fuzzy
@@ -1912,16 +1834,14 @@ msgid "Bravo! You've adeptly modified and interfaced with your Starknet contract
 msgstr "干得好！通过接口的交互，你对你的Starknet合约进行了巧妙的修改。"
 
 #: src/ch02-03-scarb.md:12
-#, fuzzy
 msgid ""
 "Scarb is Cairo’s package manager designed for both Cairo and Starknet projects. It handles dependencies, compiles projects, and integrates with tools like Foundry. It is built by the same team that "
 "created Foundry for Starknet."
 msgstr "Scarb 是 Cairo 的软件包管理器，专为 Cairo 和 Starknet 项目设计。它处理依赖关系、编译项目，并与 Foundry 等工具集成。它由为 Starknet 创建 Foundry 的同一团队打造。"
 
 #: src/ch02-03-scarb.md:17
-#, fuzzy
 msgid "Scarb Workflow"
-msgstr "# Scarb 工作流程"
+msgstr "Scarb 工作流程"
 
 #: src/ch02-03-scarb.md:19
 msgid "Follow these steps to develop a Starknet contract using Scarb:"
@@ -1929,71 +1849,53 @@ msgstr "请按照以下步骤使用 Scarb 来开发Starknet合约："
 
 #: src/ch02-03-scarb.md:21
 msgid "**Initialize:** Use `scarb new` to set up a new project, generating a `Scarb.toml` file and initial `src/lib.cairo`."
-msgstr ""
+msgstr "**Initialize:** 使用 scarb new 创建新项目，生成 Scarb.toml 文件和初始 `src/lib.cairo`。"
 
 #: src/ch02-03-scarb.md:24
 msgid "**Code:** Add your Cairo code in the `src` directory."
-msgstr ""
+msgstr "**Code:** 在 `src` 目录中添加 Cairo 代码。"
 
 #: src/ch02-03-scarb.md:26
 msgid "**Dependencies:** Add external libraries using `scarb add`."
-msgstr ""
+msgstr "**Dependencies:** 使用 `scarb add` 添加外部库。"
 
 #: src/ch02-03-scarb.md:28
 msgid "**Compile:** Execute `scarb build` to convert your contract into Sierra code."
-msgstr ""
+msgstr "**Compile:** 执行 `scarb build` 将合约转换为 Sierra 文件。"
 
 #: src/ch02-03-scarb.md:31
-#, fuzzy
 msgid "Scarb simplifies your development workflow, making it efficient and streamlined."
-msgstr "Scarb 简化了您的开发工作流程，使其高效、精简。"
+msgstr "Scarb 能够简化开发工作流程，使其高效、精简。"
 
 #: src/ch02-03-scarb.md:36
-#, fuzzy
 msgid "Scarb is cross-platform, supporting macOS, Linux, and Windows. For installation, refer to the [Basic installation guide](./ch02-01-basic-installation.html#scarb-package-manager-installation)."
 msgstr "Scarb 可跨平台运行，支持 macOS、Linux 和 Windows。有关安装，请参阅 [第1章的安装指南](https://book.starknet.io/chapter_1/environment_setup.html#the_scarb_package_manager_installation)。"
 
 #: src/ch02-03-scarb.md:39
-#, fuzzy
 msgid "Cairo Project Structure"
-msgstr "# Cairo项目结构"
+msgstr "Cairo项目结构"
 
 #: src/ch02-03-scarb.md:41
 msgid "Next, we’ll dive into the key components that make up a Cairo project."
 msgstr "接下来，我们将深入探讨Cairo项目的关键组成部分。"
 
 #: src/ch02-03-scarb.md:43
-#, fuzzy
 msgid "Cairo Packages"
-msgstr "## Cairo 包"
+msgstr "Cairo 包"
 
 #: src/ch02-03-scarb.md:45
-#, fuzzy
 msgid "Cairo packages, also referred to as \"crates\" in some contexts, are the building blocks of a Cairo project. Each package must follow several rules:"
 msgstr "Cairo 包在某些情况下也被称为 \"crate\"，是 Cairo 项目的组成部分。每个包都必须遵循几条规则："
 
 #: src/ch02-03-scarb.md:49
-#, fuzzy
 msgid "A package must include a `Scarb.toml` file, which is Scarb’s manifest file. It contains the dependencies for your package."
-msgstr ""
-"- 包必须包含一个 `Scarb.toml` 文件，它是 Scarb 的\n"
-"  清单文件。它包含软件包的依赖项。\n"
-"\n"
-"- 包必须包含一个 `src/lib.cairo` 文件，它是包的树形结构的根文件。\n"
-"  它允许你定义函数和声明使用过的模块。"
+msgstr "- 包必须包含一个 `Scarb.toml` 文件，它是 Scarb 的清单文件。它包含软件包的依赖项。"
 
 #: src/ch02-03-scarb.md:52
-#, fuzzy
 msgid "A package must include a `src/lib.cairo` file, which is the root of the package tree. It allows you to define functions and declare used modules."
-msgstr ""
-"- 包必须包含一个 `Scarb.toml` 文件，它是 Scarb 的\n"
-"  清单文件。它包含软件包的依赖项。\n"
-"\n"
-"- 包必须包含一个 `src/lib.cairo` 文件，它是包的树形结构的根文件。\n"
-"  它允许你定义函数和声明使用过的模块。"
+msgstr "包必须包含一个 `src/lib.cairo` 文件，它是包的树形结构的根文件。它允许你定义函数和声明使用过的模块。"
 
 #: src/ch02-03-scarb.md:56
-#, fuzzy
 msgid ""
 "Package structures might look like the following case where we have a package named `my_package`, which includes a `src` directory with the `lib.cairo` file inside, a `snips` directory which in itself "
 "a package we can use, and a `Scarb.toml` file in the top-level directory."
@@ -2004,7 +1906,6 @@ msgid "Within the `Scarb.toml` file, you might have:"
 msgstr "在 `Scarb.toml` 文件中，可能有："
 
 #: src/ch02-03-scarb.md:74
-#, fuzzy
 msgid ""
 "```\n"
 "[package]\n"
@@ -2016,45 +1917,32 @@ msgid ""
 "snips = { path = \"snips\" }\n"
 "```"
 msgstr ""
-"[package]\n"
-"    name = \"my_package\"\n"
-"    version = \"0.1.0\"\n"
-"\n"
-"    [dependencies]\n"
-"    starknet = \">=2.0.1\"\n"
-"    snips = { path = \"snips\" }"
 
 #: src/ch02-03-scarb.md:82
-#, fuzzy
 msgid ""
 "Here starknet and snips are the dependencies of the package. The `starknet` dependency is hosted on the Scarb registry (we do not need to download it), while the `snips` dependency is located in the "
 "`snips` directory."
 msgstr "这里的 `starknet`  和 `snips` 是软件包的依赖项。`starknet` 依赖项位于 Scarb 注册表中（我们无需下载），而 `snips`依赖项位于 `snips`目录中。"
 
 #: src/ch02-03-scarb.md:87
-#, fuzzy
 msgid "Setting Up a Project with Scarb"
-msgstr "# 使用 Scarb 设置项目"
+msgstr "使用 Scarb 设置项目"
 
 #: src/ch02-03-scarb.md:89
-#, fuzzy
 msgid "To create a new project using Scarb, navigate to your desired project directory and execute the following command:"
 msgstr "要使用 Scarb 创建新项目，请导航到所需的项目目录并执行以下命令："
 
 #: src/ch02-03-scarb.md:94
-#, fuzzy
 msgid ""
 "This command will create a new project directory named `hello_scarb`, including a `Scarb.toml` file, a `src` directory with a `lib.cairo` file inside, and initialize a new Git repository with a `."
 "gitignore` file."
 msgstr "该命令将创建一个名为 `hello_scarb` 的新项目目录，包括一个 `Scarb.toml` 文件、一个包含 `lib.cairo` 文件的 `src` 目录，并使用 `.gitignore` 文件初始化一个新的 Git 仓库。"
 
 #: src/ch02-03-scarb.md:103
-#, fuzzy
 msgid "Upon opening `Scarb.toml` in a text editor, you should see something similar to the code snippet below:"
 msgstr "在文本编辑器中打开`Scarb.toml`后，您应该会看到与下面代码片段类似的内容："
 
 #: src/ch02-03-scarb.md:106
-#, fuzzy
 msgid ""
 "```\n"
 "[package]\n"
@@ -2066,41 +1954,28 @@ msgid ""
 "# foo = { path = \"vendor/foo\" }\n"
 "```"
 msgstr ""
-"[package]\n"
-"    name = \"hello_scarb\"\n"
-"    version = \"0.1.0\"\n"
-"\n"
-"    # See more keys and their definitions at https://docs.swmansion.com/scarb/docs/reference/manifest.html\n"
-"    [dependencies]\n"
-"    # foo = { path = \"vendor/foo\" }"
 
 #: src/ch02-03-scarb.md:114
-#, fuzzy
 msgid "Building a Scarb Project"
-msgstr "# 编译Scarb项目"
+msgstr "编译Scarb项目"
 
 #: src/ch02-03-scarb.md:116
 msgid "Clear all content in `src/lib.cairo` and replace with the following:"
 msgstr "删除 `src/lib.cairo` 中的所有内容，并替换为以下内容："
 
 #: src/ch02-03-scarb.md:118
-#, fuzzy
 msgid ""
 "```\n"
 "// src/lib.cairo\n"
 "mod hello_scarb;\n"
 "```"
 msgstr ""
-"// src/lib.cairo\n"
-"    mod hello_scarb;"
 
 #: src/ch02-03-scarb.md:121
-#, fuzzy
 msgid "Next, create a new file titled `src/hello_scarb.cairo` and add the following:"
 msgstr "接下来，创建一个名为 `src/hello_scarb.cairo` 的新文件，并添加以下内容："
 
 #: src/ch02-03-scarb.md:124
-#, fuzzy
 msgid ""
 "```\n"
 "// src/hello_scarb.cairo\n"
@@ -2110,14 +1985,8 @@ msgid ""
 "}\n"
 "```"
 msgstr ""
-"// src/hello_scarb.cairo\n"
-"    use debug::PrintTrait;\n"
-"    fn main() {\n"
-"        'Hello, Scarb!'.print();\n"
-"    }"
 
 #: src/ch02-03-scarb.md:130
-#, fuzzy
 msgid ""
 "In this instance, the `lib.cairo` file contains a module declaration referencing _hello_scarb_, which includes the _hello_scarb.cairo_ file’s implementation. For more on modules, imports, and the `lib."
 "cairo` file, please refer to the cairo-book on [Managing Cairo Projects in Chapter 7](https://book.cairo-lang.org/ch07-00-managing-cairo-projects-with-packages-crates-and-modules.html)."
@@ -2126,17 +1995,14 @@ msgstr ""
 "chapter_2/imports.html)。"
 
 #: src/ch02-03-scarb.md:136
-#, fuzzy
 msgid "Scarb mandates that your source files be located within the `src` directory."
 msgstr "Scarb 要求代码源文件应位于 `src` 目录中。"
 
 #: src/ch02-03-scarb.md:139
-#, fuzzy
 msgid "To build (compile) your project from your `hello_scarb` directory, use the following command:"
 msgstr "要在 `hello_scarb` 目录中构建（编译）项目，请使用以下命令："
 
 #: src/ch02-03-scarb.md:144
-#, fuzzy
 msgid ""
 "This command compiles your project and produces the Sierra code in the `target/dev/hello_scarb.sierra.json` file. Sierra serves as an intermediate layer between high-level Cairo and compilation "
 "targets such as Cairo Assembly (CASM). To understand more about Sierra, check out this [article](https://medium.com/nethermind-eth/under-the-hood-of-cairo-1-0-exploring-sierra-7f32808421f5/)."
@@ -2145,82 +2011,66 @@ msgstr ""
 "(https://medium.com/nethermind-eth/under-the-hood-of-cairo-1-0-exploring-sierra-7f32808421f5/)。"
 
 #: src/ch02-03-scarb.md:150
-#, fuzzy
 msgid "To remove the build artifacts and delete the target directory, use the `scarb clean` command."
 msgstr "要移除编译成果并删除目标目录，请使用 `scarb clean` 命令。"
 
 #: src/ch02-03-scarb.md:153
-#, fuzzy
 msgid "Adding Dependencies"
-msgstr "## 添加依赖项"
+msgstr "添加依赖项"
 
 #: src/ch02-03-scarb.md:155
-#, fuzzy
 msgid "Scarb facilitates the seamless management of dependencies for your Cairo packages. Here are two methods to add dependencies to your project:"
 msgstr "Scarb 可以帮助你无缝管理 Cairo 软件包的依赖关系。以下是为项目添加依赖包的两种方法："
 
 #: src/ch02-03-scarb.md:158
-#, fuzzy
 msgid "Edit Scarb.toml File"
 msgstr "编辑 Scarb.toml 文件"
 
 #: src/ch02-03-scarb.md:160
-#, fuzzy
 msgid ""
 "Open the Scarb.toml file in your project directory and locate the `[dependencies]` section. If it doesn’t exist, add it. To include a dependency hosted on a Git repository, use the following format:"
 msgstr "打开项目目录中的 Scarb.toml 文件，找到`[dependencies]`部分。如果不存在，请添加。要包含托管在 Git 仓库中的依赖项，请使用以下格式："
 
 #: src/ch02-03-scarb.md:164
-#, fuzzy
 msgid ""
 "```\n"
 "[dependencies]\n"
 "alexandria_math = { git = \"https://github.com/keep-starknet-strange/alexandria.git\" }\n"
 "```"
 msgstr ""
-"[dependencies]\n"
-"    alexandria_math = { git = \"https://github.com/keep-starknet-strange/alexandria.git\" }"
 
 #: src/ch02-03-scarb.md:167
-#, fuzzy
 msgid "For consistency, it’s recommended to pin Git dependencies to specific commits. This can be done by adding the `rev` field with the commit hash:"
 msgstr "为保持一致性，建议将 Git 依赖项固定在某个特定提交上。这可以通过添加带有提交哈希值的 `rev` 字段来实现："
 
 #: src/ch02-03-scarb.md:171
-#, fuzzy
 msgid ""
 "```\n"
 "[dependencies]\n"
 "alexandria_math = { git = \"https://github.com/keep-starknet-strange/alexandria.git\", rev = \"81bb93c\" }\n"
 "```"
 msgstr ""
-"[dependencies]\n"
-"    alexandria_math = { git = \"https://github.com/keep-starknet-strange/alexandria.git\", rev = \"81bb93c\" }"
 
 #: src/ch02-03-scarb.md:174
 msgid "After adding the dependency, remember to save the file."
 msgstr "添加依赖项后，记得保存文件。"
 
 #: src/ch02-03-scarb.md:176
-#, fuzzy
 msgid "Use the scarb add Command"
-msgstr "- 使用 scarb add 命令"
+msgstr "使用 scarb add 命令"
 
 #: src/ch02-03-scarb.md:178
-#, fuzzy
 msgid "Alternatively, you can use the `scarb add` command to add dependencies to your project. Open your terminal and execute the following command:"
 msgstr "您也可以使用 `scarb add` 命令为项目添加依赖项。打开终端并执行以下命令："
 
 #: src/ch02-03-scarb.md:181
-#, fuzzy
 msgid ""
 "```\n"
 "$ scarb add alexandria_math --git https://github.com/keep-starknet-strange/alexandria.git\n"
 "```"
-msgstr "$ scarb add alexandria_math --git https://github.com/keep-starknet-strange/alexandria.git"
+msgstr ""
 
 #: src/ch02-03-scarb.md:183
-#, fuzzy
 msgid "This command will add the alexandria_math dependency from the specified Git repository to your project."
 msgstr "这条命令会将指定 Git 仓库中的 alexandria_math 外部依赖项添加到项目中。"
 
@@ -2229,27 +2079,22 @@ msgid "To remove a dependency, you can use the `scarb rm` command."
 msgstr "要删除依赖项，可以使用 `scarb rm` 命令。"
 
 #: src/ch02-03-scarb.md:188
-#, fuzzy
 msgid "Once a dependency is added, the Scarb.toml file will be automatically updated with the new dependency information."
 msgstr "一旦添加了依赖项，Scarb.toml 文件就会自动更新，加入新的依赖项信息。"
 
 #: src/ch02-03-scarb.md:191
-#, fuzzy
 msgid "Using Dependencies in Your Code"
-msgstr "## 在代码中使用依赖项"
+msgstr "在代码中使用依赖项"
 
 #: src/ch02-03-scarb.md:193
-#, fuzzy
 msgid "After dependencies are added to your project, you can start utilizing them in your Cairo code."
 msgstr "将依赖项添加到项目中后，就可以开始在 Cairo 代码中使用它们了。"
 
 #: src/ch02-03-scarb.md:196
-#, fuzzy
 msgid "For example, let’s assume you have added the alexandria_math dependency. Now, you can import and utilize functions from the alexandria_math library in your `src/hello_scarb.cairo` file:"
 msgstr "例如，假设你已经添加了 alexandria_math 依赖项。现在，你可以在你的 `src/hello_scarb.cairo` 文件中导入并使用 alexandria_math 库中的函数："
 
 #: src/ch02-03-scarb.md:200
-#, fuzzy
 msgid ""
 "```\n"
 "// src/hello_scarb.cairo\n"
@@ -2260,86 +2105,76 @@ msgid ""
 "}\n"
 "```"
 msgstr ""
-"// src/hello_scarb.cairo\n"
-"    use alexandria_math::fibonacci;\n"
-"\n"
-"    fn main() -> felt252 {\n"
-"        fibonacci::fib(0, 1, 10)\n"
-"    }"
 
 #: src/ch02-03-scarb.md:207
-#, fuzzy
 msgid "In the above example, we import the fibonacci function from the alexandria_math library and utilize it in the main function."
 msgstr "在上面的示例中，我们从 alexandria_math 库中导入了 fibonacci 函数，并在主函数中使用了它。"
 
 #: src/ch02-03-scarb.md:210
-#, fuzzy
 msgid "Scarb Cheat Sheet"
-msgstr "# Scarb Cheat Sheet"
+msgstr "Scarb Cheat Sheet"
 
 #: src/ch02-03-scarb.md:212
-#, fuzzy
 msgid "Here’s a quick cheat sheet of some of the most commonly used Scarb commands:"
 msgstr "下面是一些最常用的 Scarb 命令的cheat sheet："
 
 #: src/ch02-03-scarb.md:215
 msgid "`scarb new <project_name>`: Initialize a new project with the given project name."
-msgstr ""
+msgstr "`scarb new <project_name>`: 以制定的项目名初始化项目。"
 
 #: src/ch02-03-scarb.md:218
 msgid "`scarb build`: Compile your Cairo code into Sierra code."
-msgstr ""
+msgstr "`scarb build`: 将 Cairo 代码编译成 Sierra 代码。"
 
 #: src/ch02-03-scarb.md:220
 msgid "`scarb add <dependency> --git <repository>`: Add a dependency to your project from a specified Git repository."
-msgstr ""
+msgstr "`scarb add <dependency> —git <repository>`: 从指定的 Git 仓库拉取依赖库。"
 
 #: src/ch02-03-scarb.md:223
 msgid "`scarb rm <dependency>`: Remove a dependency from your project."
-msgstr ""
+msgstr "`scarb rm <dependency>`: 从项目中移除一个依赖关系。"
 
 #: src/ch02-03-scarb.md:225
 msgid "`scarb run <script>`: Run a custom script defined in your `Scarb.toml` file."
-msgstr ""
+msgstr "`scarb run <script>`: 运行在 Scarb.toml 文件中定义的自定义脚本。"
 
 #: src/ch02-03-scarb.md:228
 msgid "What is new since version 2.3.0"
-msgstr ""
+msgstr "2.3.0 版本后的新增功能"
 
 #: src/ch02-03-scarb.md:230
 msgid "JSON containing Sierra code of Starknet contract class becomes: `contract.contract_class.json`."
-msgstr ""
+msgstr "保存 Sierra 代码的 JSON 命名为 contract.contract_class.json 。"
 
 #: src/ch02-03-scarb.md:231
 msgid "JSON containing CASM code of Starknet contract class becomes: `contract.compiled_contract_class.json`."
-msgstr ""
+msgstr "保存 CASM 代码的JSON 命名为：`contract.compiled_contract_class.json`。"
 
 #: src/ch02-03-scarb.md:232
 msgid ""
 "Now cairo supports `Components`. They are modular add-ons encapsulating reusable logic, storage, and events that can be incorporated into multiple contracts. They can be used to extend a contract's "
 "functionality, without having to reimplement the same logic over and over again."
-msgstr ""
+msgstr "现在，cairo 支持 Components 。它们是模块化的附加组件，封装了可重复使用的逻辑、存储和事件，可以整合到多个合约中。它们可用于扩展 contract 的功能，而无需重复实现相同的逻辑。"
 
 #: src/ch02-03-scarb.md:234
-#, fuzzy
 msgid "Project using Components"
-msgstr "主要组成部分："
+msgstr "Project using Components"
 
 #: src/ch02-03-scarb.md:236
 msgid ""
 "One of the most important features since `scarb 2.3.0` version is `Components`. Think of components as Lego blocks. They allow you to enrich your contracts by plugging in a module that you or someone "
 "else wrote."
-msgstr ""
+msgstr "自 scarb 2.3.0 版本以来，最重要的功能之一就是 Components 。把 components 想象成乐高积木。它允许你通过插入自己或他人编写的模块来丰富合约。"
 
 #: src/ch02-03-scarb.md:238
 msgid ""
 "Lets see and example. Recover our project from [Testnet Deployment](./ch02-05-testnet-deployment.md) section. We used the `Ownable-Starknet` example to interact with the blockchain, now we are going "
 "to use the same project, but we will refactor the code in order to use `components`"
-msgstr ""
+msgstr "举个例子，用 [Testnet Deployment](./ch02-05-testnet-deployment.md) 的代码，我们用 `Ownable-Starknet`  这个例子演示了与区块链的交互，现在，我们将使用 `components` 来重构它的代码"
 
 #: src/ch02-03-scarb.md:240
 msgid "This is how our smart contract looks now"
-msgstr ""
+msgstr "合约现在的代码如下"
 
 #: src/ch02-03-scarb.md:243
 msgid "// ...rest of the code\n"
@@ -2349,38 +2184,32 @@ msgstr ""
 msgid ""
 "Basically we decided to apply `components` on the section related to `ownership` and created a separated module `ownable_component`. Then we kept the `data` section in our main module "
 "`ownable_contract`."
-msgstr ""
+msgstr "基本上，我们决定将 components 应用于与 ownership 相关的部分，并创建了一个单独的模块 ownable_component 。然后，我们将 data 部分保留在主模块 ownable_contract 中。"
 
 #: src/ch02-03-scarb.md:351
-#, fuzzy
 msgid ""
 "To get the full implementation of this project, navigate to the `src/` directory in the [examples/Ownable-Components](https://github.com/starknet-edu/starknetbook/tree/main/examples/Ownable-Starknet) "
 "directory of the Starknet Book repo. The `src/lib.cairo` file contains the contract to practice with."
 msgstr ""
-"要开始学习，请导航到Starknet之书 github仓库的 [第一章](https://github.com/starknet-edu/starknetbook/tree/main/chapters/book/modules/chapter_1/pages/contracts) 中的 `contracts/` 目录。`src/lib.cairo` 文"
-"件包含一个基本合约，可供练习。"
+"要获得此项目的完整实现，请访问 Starknet Book repo 中  [examples/Ownable-Components](https://github.com/starknet-edu/starknetbook/tree/main/examples/Ownable-Starknet) 目录下的 src/ 目录。 src/lib.cairo "
+"文件包含 contract 以供练习。"
 
 #: src/ch02-03-scarb.md:353
 msgid "After you get the full code on your machine, open your terminal, input `scarb build` to compile it, deploy your contract and call functions."
-msgstr ""
+msgstr "获得完整代码后，打开终端，输入 `scarb build` 进行编译，部署 contract 并调用函数。"
 
 #: src/ch02-03-scarb.md:355
-#, fuzzy
 msgid ""
 "You can learn more about components in [Chapter 16 of The Cairo Book](https://book.cairo-lang.org/ch15-02-composability-and-components.html?highlight=ownable%20componen#example-an-ownable-component)."
-msgstr ""
-"在我们的例子中，构造函数期望得到一个 _owner_ 地址。关于构造函数的更多信息，请参阅 [Cairo之书 第12章](<https://book.cairo-lang.org/ch99-01-03-02-contract-functions.html?highlight=constructor#1-"
-"constructors>)。"
+msgstr "有关组件的更多信息，请参阅  [Chapter 16 of The Cairo Book](https://book.cairo-lang.org/ch15-02-composability-and-components.html?highlight=ownable%20componen#example-an-ownable-component)。"
 
 #: src/ch02-03-scarb.md:357
-#, fuzzy
 msgid ""
 "Scarb is a versatile tool, and this is just the beginning of what you can achieve with it. As you gain more experience in the Cairo language and the Starknet platform, you’ll discover how much more "
 "you can do with Scarb."
-msgstr "Scarb 是一个多功能工具，上面的教程只是一个开始，这这些仅仅只是它所能实现功能的一小部分。随着您在Cairo语言和Starknet平台上获得更多的经验，您会发现 Scarb 能为您做更多的事情。"
+msgstr "Scarb 是一款多功能工具，而这仅仅是您使用它实现目标的开始。随着你在 Cairo 语言和 Starknet 平台上积累更多经验，你会发现 Scarb 能帮你做更多事情。"
 
 #: src/ch02-03-scarb.md:362
-#, fuzzy
 msgid "To stay updated on Scarb and its features, be sure to check the [official Scarb documentation](https://docs.swmansion.com/scarb/docs.html) regularly. Happy coding!"
 msgstr "要了解 Scarb 及其功能的最新情况，请务必定期查看 [Scarb 官方文档](https://docs.swmansion.com/scarb/docs.html)。祝您代码写的愉快！"
 
@@ -2389,38 +2218,24 @@ msgid "The Book is a community-driven effort created for the community."
 msgstr "这本书由社区推动，为社区而生。"
 
 #: src/ch02-03-scarb.md:369 src/ch04-05-01-multicaller.md:607
-#, fuzzy
 msgid ""
 "If you’ve learned something, or not, please take a moment to provide feedback through [this 3-question survey](https://a.sprig.com/"
 "WTRtdlh2VUlja09lfnNpZDo4MTQyYTlmMy03NzdkLTQ0NDEtOTBiZC01ZjAyNDU0ZDgxMzU=)."
-msgstr ""
-"- 如果您学到了什么，或者没有学到什么，请花点时间通过这个[3 个问题的调查表](https://a.sprig.com/WTRtdlh2VUlja09lfnNpZDo4MTQyYTlmMy03NzdkLTQ0NDEtOTBiZC01ZjAyNDU0ZDgxMzU=)提供反馈意见。\n"
-"\n"
-"- 如果您发现任何错误或有其他建议，请在Github仓库上打开一个[issue](https://github.com/starknet-edu/starknetbook/issues)。"
+msgstr "如果您学到了什么，或者有其他想法，请花点时间通过这个 [3 个问题的调查表](https://a.sprig.com/WTRtdlh2VUlja09lfnNpZDo4MTQyYTlmMy03NzdkLTQ0NDEtOTBiZC01ZjAyNDU0ZDgxMzU=)提供反馈意见。"
 
 #: src/ch02-03-scarb.md:373 src/ch04-05-01-multicaller.md:611
-#, fuzzy
 msgid "If you discover any errors or have additional suggestions, don’t hesitate to open an [issue on our GitHub repository](https://github.com/starknet-edu/starknetbook/issues)."
-msgstr ""
-"- 如果您学到了什么，或者没有学到什么，请花点时间通过这个[3 个问题的调查表](https://a.sprig.com/WTRtdlh2VUlja09lfnNpZDo4MTQyYTlmMy03NzdkLTQ0NDEtOTBiZC01ZjAyNDU0ZDgxMzU=)提供反馈意见。\n"
-"\n"
-"- 如果您发现任何错误或有其他建议，请在Github仓库上打开一个[issue](https://github.com/starknet-edu/starknetbook/issues)。"
+msgstr "如果您发现任何错误或有其他建议，请在Github仓库上打开一个 [issue](https://github.com/starknet-edu/starknetbook/issues)。"
 
 #: src/ch02-04-katana.md:3
-#, fuzzy
 msgid ""
 "`Katana` is designed to aid in local development. This creation by the [Dojo team](https://github.com/dojoengine/dojo/blob/main/crates/katana/README.md) enables you to perform all Starknet-related "
 "activities in a local environment, thus serving as an efficient platform for development and testing."
 msgstr ""
-"`Katana` is designed to aid in local development.\n"
-"This creation by the [Dojo\n"
-"team](https://github.com/dojoengine/dojo/blob/main/crates/katana/README.md)\n"
-"enables you to perform all Starknet-related activities in a local\n"
-"environment, thus serving as an efficient platform for development and\n"
-"testing."
+"`Katana` 旨在帮助本地开发。通过  [Dojo 团队](https://github.com/dojoengine/dojo/blob/main/crates/katana/README.md)的这一创建，您可以在本地环境中执行所有与 Starknet 相关的活动，从而成为一个高效的开发和"
+"测试平台。"
 
 #: src/ch02-04-katana.md:10
-#, fuzzy
 msgid ""
 "We suggest employing either `katana` or `starknet-devnet` for testing your contracts, with the latter discussed in another subchapter. The `starknet-devnet` is a public testnet, maintained by the "
 "[Shard Labs team](https://github.com/0xSpaceShard/starknet-devnet-rs). Both these tools offer an effective environment for development and testing."
@@ -2429,26 +2244,22 @@ msgstr ""
 "种工具都为开发和测试提供了有效的环境。"
 
 #: src/ch02-04-katana.md:16
-#, fuzzy
 msgid ""
 "For an example of how to use `katana` to deploy and interact with a contract, see the introduction subchapter of this Chapter or a voting contract example in [The Cairo Book](https://book.cairo-lang."
 "org/ch99-01-04-01-voting-contract.html)."
 msgstr "有关如何使用 `katana` 来部署合约并与之交互的示例，请参阅本章的介绍分章或 [Cairo之书](https://book.cairo-lang.org/zh-cn/ch99-01-04-01-voting-contract.html) 中的投票合同示例。"
 
 #: src/ch02-04-katana.md:19
-#, fuzzy
 msgid "Understanding RPC in Starknet"
-msgstr "## 了解Starknet中的 RPC"
+msgstr "了解Starknet中的 RPC"
 
 #: src/ch02-04-katana.md:21
-#, fuzzy
 msgid ""
 "Remote Procedure Call (RPC) establishes the communication between nodes in the Starknet network. Essentially, it allows us to interact with a node in the Starknet network. The RPC server is "
 "responsible for receiving these calls."
 msgstr "远程过程调用（RPC）建立了Starknet节点之间的通信。从本质上讲，它允许我们与 Starknet 网络中的节点进行交互。RPC 服务器负责接收这些调用。"
 
 #: src/ch02-04-katana.md:26
-#, fuzzy
 msgid ""
 "RPC can be obtained from various sources: . To support the decentralization of the Network, you can use your own local Starknet node. For ease of access, consider using a provider such as [Infura]"
 "(https://docs.infura.io/networks/starknet/how-to) or [Alchemy](https://www.alchemy.com/starknet) to get an RPC client. For development and testing, a temporary local node such as `katana` can be used."
@@ -2457,16 +2268,14 @@ msgstr ""
 "starknet) 等提供商来获取 RPC 客户端。为便于开发和测试，可使用临时本地节点（如 `katana`）。"
 
 #: src/ch02-04-katana.md:34
-#, fuzzy
 msgid "Getting Started with Katana"
-msgstr "## 开始使用Katana"
+msgstr "开始使用Katana"
 
 #: src/ch02-04-katana.md:51
 msgid "To initialize a local Starknet node, execute the following command:"
 msgstr "要初始化本地 Starknet 节点，请执行以下命令："
 
 #: src/ch02-04-katana.md:57
-#, fuzzy
 msgid ""
 "The `--accounts` flag determines the number of accounts to be created, while the `--seed` flag sets the seed for the private keys of these accounts. This ensures that initializing the node with the "
 "same seed will always yield the same accounts."
@@ -2477,7 +2286,6 @@ msgid "Running the command produces output similar to this:"
 msgstr "运行该命令会产生类似下面的输出结果："
 
 #: src/ch02-04-katana.md:64
-#, fuzzy
 msgid ""
 "```\n"
 "██╗  ██╗ █████╗ ████████╗ █████╗ ███╗   ██╗ █████╗\n"
@@ -2523,39 +2331,8 @@ msgid ""
 "🚀 JSON-RPC server started: http://0.0.0.0:5050\n"
 "```"
 msgstr ""
-"██╗  ██╗ █████╗ ████████╗ █████╗ ███╗   ██╗ █████╗\n"
-"    ██║ ██╔╝██╔══██╗╚══██╔══╝██╔══██╗████╗  ██║██╔══██╗\n"
-"    █████╔╝ ███████║   ██║   ███████║██╔██╗ ██║███████║\n"
-"    ██╔═██╗ ██╔══██║   ██║   ██╔══██║██║╚██╗██║██╔══██║\n"
-"    ██║  ██╗██║  ██║   ██║   ██║  ██║██║ ╚████║██║  ██║\n"
-"    ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝\n"
-"\n"
-"\n"
-"    PREFUNDED ACCOUNTS\n"
-"    ==================\n"
-"\n"
-"    | Account address |  0x03ee9e18edc71a6df30ac3aca2e0b02a198fbce19b7480a63a0d71cbd76652e0\n"
-"    | Private key     |  0x0300001800000000300000180000000000030000000000003006001800006600\n"
-"    | Public key      |  0x01b7b37a580d91bc3ad4f9933ed61f3a395e0e51c9dd5553323b8ca3942bb44e\n"
-"\n"
-"    | Account address |  0x033c627a3e5213790e246a917770ce23d7e562baa5b4d2917c23b1be6d91961c\n"
-"    | Private key     |  0x0333803103001800039980190300d206608b0070db0012135bd1fb5f6282170b\n"
-"    | Public key      |  0x04486e2308ef3513531042acb8ead377b887af16bd4cdd8149812dfef1ba924d\n"
-"\n"
-"    | Account address |  0x01d98d835e43b032254ffbef0f150c5606fa9c5c9310b1fae370ab956a7919f5\n"
-"    | Private key     |  0x07ca856005bee0329def368d34a6711b2d95b09ef9740ebf2c7c7e3b16c1ca9c\n"
-"    | Public key      |  0x07006c42b1cfc8bd45710646a0bb3534b182e83c313c7bc88ecf33b53ba4bcbc\n"
-"\n"
-"\n"
-"    ACCOUNTS SEED\n"
-"    =============\n"
-"    0\n"
-"\n"
-"\n"
-"    🚀 JSON-RPC server started: http://0.0.0.0:5050"
 
 #: src/ch02-04-katana.md:106
-#, fuzzy
 msgid ""
 "The output includes the addresses, private keys, and public keys of the created accounts. It also contains the seed used to generate the accounts. This seed can be reused to create identical accounts "
 "in future runs. Additionally, the output provides the URL of the JSON-RPC server. This URL can be used to establish a connection to the local Starknet node."
@@ -2568,14 +2345,12 @@ msgid "To stop the local Starknet node, simply press `Ctrl+C`."
 msgstr "要停止本地 Starknet 节点，只需按`Ctrl+C`键。"
 
 #: src/ch02-04-katana.md:115
-#, fuzzy
 msgid "The local Starknet node does not persist data. Hence, once it’s stopped, all data will be erased."
 msgstr "本地 Starknet 节点不会永久保存数据。因此，一旦停止运行，所有数据都将被清除。"
 
 #: src/ch02-04-katana.md:118
-#, fuzzy
 msgid "For a practical demonstration of `katana` to deploy and interact with a contract, see [Introduction: Starkli, Scarb and Katana](ch02-02-starkli-scarb-katana.md)."
-msgstr "有关 `katana` 部署合约并与之交互的实际演示，请参阅 [第 2 章 投票合约示例](https://book.starknet.io/chapter_2/deploy_call_invoke.html)。"
+msgstr "有关 `katana` 部署合约并与之交互的实际演示，请参阅 [Introduction: Starkli, Scarb and Katana](ch02-02-starkli-scarb-katana.md)。"
 
 #: src/ch02-05-testnet-deployment.md:3
 msgid ""
@@ -2584,38 +2359,32 @@ msgid ""
 msgstr "本章将指导开发者在 testnet 上编译、部署用Cairo编写的Starknet智能合约，并与之交互。前面的重点是使用本地节点 Katana 部署合约。这一次，部署和交互的目标是 Starknet 测试网。"
 
 #: src/ch02-05-testnet-deployment.md:5
-#, fuzzy
 msgid "Ensure the following commands run successfully on your system. If not, see the [Basic Installation](./ch02-01-basic-installation.md) section:"
 msgstr "确保以下命令在系统上成功运行。如果没有，请参阅 '基本安装' 部分："
 
 #: src/ch02-05-testnet-deployment.md:14
-#, fuzzy
 msgid ""
 "A smart wallet comprises a Signer and an Account Descriptor. The Signer is a smart contract with a private key for signing transactions, while the Account Descriptor is a JSON file detailing the "
 "wallet’s address and public key."
 msgstr "智能钱包由签名者和账户描述符组成。签名者是一个智能合约，带有用于签署交易的私钥，而账户描述符是一个 JSON 文件，详细说明了钱包的地址和公钥。"
 
 #: src/ch02-05-testnet-deployment.md:19
-#, fuzzy
 msgid ""
 "In order for an account to be used as a signer it must be deployed to the appropriate network, Starknet Goerli, Sepolia or mainnet, and funded. For this example we are going to use Goerli Testnet. To "
 "deploy your wallet, visit [Smart Wallet Setup](./ch01-00-getting-started.html#smart-wallet-setup). Now you’re ready to interact with Starknet smart contracts."
 msgstr ""
-"要将一个账户用作签名者，该账户必须部署到相应的网络、\n"
-"星网 Goerli 或主网，并为其提供资金。在本例中，我们将使用 Goerli Testnet。要部署你的钱包，请访问[入门](ch01-00-getting-started.md)并找到 \"智能钱包设置 \"部分。"
+"要将一个账户用作签名者，该账户必须部署到相应的网络、Starknet Goerli 或主网，并为其提供资金。在本例中，我们将使用 Goerli Testnet。要部署你的钱包，请访问  [Smart Wallet Setup](./ch01-00-getting-started."
+"html#smart-wallet-setup) 并找到 \"智能钱包设置 \"部分。"
 
 #: src/ch02-05-testnet-deployment.md:23
-#, fuzzy
 msgid "Creating a Signer"
-msgstr "### 创建签名者"
+msgstr "创建签名者"
 
 #: src/ch02-05-testnet-deployment.md:25
-#, fuzzy
 msgid "The Signer is an essential smart contract capable of signing transactions in Starknet. You’ll need the private key from your smart wallet to create one, from which the public key can be derived."
 msgstr "签名者是一种重要的智能合约，能够在Starknet中签署交易。你需要从你的智能钱包中获取私钥来创建签名者，并从中获取公钥。"
 
 #: src/ch02-05-testnet-deployment.md:29
-#, fuzzy
 msgid "Starkli enables secure storage of your private key through a keystore file. This encrypted file can be accessed using a password and is generally stored in the default Starkli directory."
 msgstr "Starkli 可以通过密钥存储文件安全存储你的私人密钥。该加密文件可以通过密码访问，通常存储在默认的 Starkli 目录中。"
 
@@ -2624,7 +2393,6 @@ msgid "First, create the default directory:"
 msgstr "首先，创建默认目录："
 
 #: src/ch02-05-testnet-deployment.md:39
-#, fuzzy
 msgid ""
 "Then generate the keystore file. The signer command contains subcommands for creating a keystore file from a private key or completely create a new one. In this tutorial, we’ll use the private key "
 "option which is the most common use case. You need to provide the path to the keystore file you want to create. You can give any name to the keystore file, you will likely have several wallets. In "
@@ -2634,7 +2402,6 @@ msgstr ""
 "为你可能会有多个钱包。在本教程中，我们将使用 `my_keystore_ 1.json`。"
 
 #: src/ch02-05-testnet-deployment.md:53
-#, fuzzy
 msgid "In the private key prompt, paste the private key of your smart wallet. In the password prompt, enter a password of your choice. You will need this password to sign transactions using Starkli."
 msgstr "在私钥提示符下，粘贴智能钱包的私钥。在密码提示中，输入你选择的密码。使用 Starkli 签署交易时需要这个密码。"
 
@@ -2643,30 +2410,26 @@ msgid "How to get the private key?"
 msgstr ""
 
 #: src/ch02-05-testnet-deployment.md:59
-#, fuzzy
 msgid ""
 "Export the private key from your Braavos or Argent wallet. For Argent X, you can find it in the \"Settings\" section → Select your Account → \"Export Private Key\". For Braavos, you can find it in the "
 "\"Settings\" section → \"Privacy and Security\" → \"Export Private Key\"."
 msgstr "从您的Braavos或 Argent 钱包中导出私钥。对于 Argent X，可以在 \"设置\"→\"选择账户\"→\"导出私钥 \"中找到。对于Braavos，您可以在 \"设置\"→\"隐私和安全\"→\"导出私人密钥 \"中找到它。"
 
 #: src/ch02-05-testnet-deployment.md:64
-#, fuzzy
 msgid ""
 "While knowing the private key of a smart wallet is necessary to sign transactions, it’s not sufficient. We also need to inform Starkli about the signing mechanism employed by our smart wallet created "
 "by Braavos or Argent X. Does it use an elliptic curve? If yes, which one? This is the reason why we need an account descriptor file."
 msgstr "虽然签署交易的必要条件是需要知晓智能钱包的私钥，但这还不够。我们还需要告知Starkli，由 Braavos 或 Argent X 创建的智能钱包所采用的签名机制。如果是，是哪一种？这就是我们需要账户描述文件的原因。"
 
 #: src/ch02-05-testnet-deployment.md:70
-#, fuzzy
 msgid "\\[OPTIONAL\\] The Architecture of the Starknet Signer"
-msgstr "#### [OPTIONAL] Starknet签名者的架构"
+msgstr "\\[OPTIONAL\\] Starknet签名者的架构"
 
 #: src/ch02-05-testnet-deployment.md:72
 msgid "This section is optional and is intended for those who want to learn more about the Starknet Signer. If you are not interested in the details, you can skip it."
 msgstr "本节为可选内容，供希望进一步了解Starknet签名者的用户使用。如果对细节不感兴趣，可以跳过。"
 
 #: src/ch02-05-testnet-deployment.md:74
-#, fuzzy
 msgid "The Starknet Signer plays an instrumental role in securing your transactions. Let’s demystify what goes on under the hood."
 msgstr "Starknet签名者在确保交易安全方面发挥着重要作用。让我们来揭开它的神秘面纱。"
 
@@ -2676,27 +2439,19 @@ msgstr "主要组成部分："
 
 #: src/ch02-05-testnet-deployment.md:79
 msgid "**Private Key**: A 256-bit/32-byte/64-character (ignoring the _0x_ prefix) hexadecimal key that is the cornerstone of your wallet’s security."
-msgstr ""
+msgstr "**私钥**：256 位/32 字节/64 个字符（忽略 _0x_ 前缀）的十六进制密钥，它是钱包安全的基石。"
 
 #: src/ch02-05-testnet-deployment.md:83
 msgid "**Public Key**: Derived from the private key, it’s also a 256-bit/32-byte/64-character hexadecimal key."
-msgstr ""
+msgstr "**公钥**：源自私钥，也是一个 256 位/32 字节/64 个字符的十六进制密钥。"
 
 #: src/ch02-05-testnet-deployment.md:86
-#, fuzzy
 msgid ""
 "**Smart Wallet Address**: Unlike Ethereum, the address here is influenced by the public key, class hash, and a salt. **[Learn more in Starknet Documentation](https://docs.starknet.io/documentation/"
 "architecture_and_concepts/Smart_Contracts/contract-address/)**."
 msgstr ""
-"1.  **私钥**：256 位/32 字节/64 个字符（忽略 _0x_\n"
-"    前缀）的十六进制密钥，它是钱包安全的基石。\n"
-"\n"
-"2.  **公钥**：源自私钥，也是一个\n"
-"    256 位/32 字节/64 个字符的十六进制密钥。\n"
-"\n"
-"3.  **智能钱包地址**：与以太坊不同，这里的地址\n"
-"    受公钥、class hash和salt的影响。\n"
-"    ** 在[Starknet 文档](https://docs.starknet.io/documentation/architecture_and_concepts/Smart_Contracts/contract-address/) 了解更多**。"
+"**智能钱包地址**：与以太坊不同，这里的地址受公钥、class hash和salt的影响。** 在[Starknet 文档](https://docs.starknet.io/documentation/architecture_and_concepts/Smart_Contracts/contract-address/) 了解更"
+"多**。"
 
 #: src/ch02-05-testnet-deployment.md:91
 msgid "To view the details of the previously created keystore file:"
@@ -2797,15 +2552,15 @@ msgstr ""
 
 #: src/ch02-05-testnet-deployment.md:122
 msgid "**`version`**: The version of the smart wallet implementation."
-msgstr ""
+msgstr "`version`**:  实现智能钱包的版本。"
 
 #: src/ch02-05-testnet-deployment.md:124
 msgid "**`id`**: A randomly generated identification string."
-msgstr ""
+msgstr "`id`**: 随机生成的标识字符串。"
 
 #: src/ch02-05-testnet-deployment.md:126
 msgid "**`crypto`**: Houses all encryption details."
-msgstr ""
+msgstr "`crypto`**: 隐藏所有加密细节。"
 
 #: src/ch02-05-testnet-deployment.md:128
 msgid "Inside **`crypto`**:"
@@ -2813,70 +2568,69 @@ msgstr "在 **`crypto`** 内部:"
 
 #: src/ch02-05-testnet-deployment.md:130
 msgid "**`cipher`**: Specifies the encryption algorithm used, which in this case is AES-128-CTR."
-msgstr ""
+msgstr "**`cipher`**：指定使用的加密算法，在本例中为 AES-128-CTR。"
 
 #: src/ch02-05-testnet-deployment.md:133
 msgid "**AES (Advanced Encryption Standard)**: A globally accepted encryption standard."
-msgstr ""
+msgstr "**AES（高级加密标准）**：一个全球接受的加密标准。"
 
 #: src/ch02-05-testnet-deployment.md:136
 msgid "**128**: Refers to the key size in bits, making it a 128-bit key."
-msgstr ""
+msgstr "**128**：指密钥大小（以位为单位），即 128 位密钥。"
 
 #: src/ch02-05-testnet-deployment.md:139
 msgid "**CTR (Counter Mode)**: A specific mode of operation for the AES cipher."
-msgstr ""
+msgstr "**CTR（计数器模式）**：AES 密码的一种特定操作模式。"
 
 #: src/ch02-05-testnet-deployment.md:142
 msgid "**`cipherparams`**: Contains an Initialization Vector (IV), which ensures that encrypting the same plaintext with the same key will produce different ciphertexts."
-msgstr ""
+msgstr "**`cipherparams`**：包含一个初始化向量（IV），确保用相同的密钥加密相同的明文会产生不同的密文。"
 
 #: src/ch02-05-testnet-deployment.md:146
 msgid "**`iv` (Initialization Vector)**: A 16-byte hex string that serves as a random and unique starting point for each encryption operation."
-msgstr ""
+msgstr "**`iv`（初始化向量）**：一个 16 字节的十六进制字符串，用作每次加密操作的随机且唯一的起点。"
 
 #: src/ch02-05-testnet-deployment.md:150
 msgid "**`ciphertext`**: This is the private key after encryption, securely stored so that only the correct password can reveal it."
-msgstr ""
+msgstr "**`ciphertext`**：这是加密后的私钥，安全存储，只有正确的密码才能揭示它。"
 
 #: src/ch02-05-testnet-deployment.md:153
 msgid "**`kdf` and `kdfparams`**: KDF stands for Key Derivation Function. This adds a layer of security by requiring computational work, making brute-force attacks harder."
-msgstr ""
+msgstr "**`kdf 和 kdfparams`**：KDF 代表密钥派生函数。这通过要求计算工作增加了一层安全性，使得暴力破解更加困难。"
 
 #: src/ch02-05-testnet-deployment.md:157
 msgid "**`dklen`**: The length (in bytes) of the derived key. Typically 32 bytes."
-msgstr ""
+msgstr "**`dklen`**：派生密钥的长度（以字节为单位）。通常为 32 字节。"
 
 #: src/ch02-05-testnet-deployment.md:160
 msgid "**`n`**: A cost factor representing CPU/memory usage. A higher value means more computational work is needed, thus increasing security."
-msgstr ""
+msgstr "**`n`**：表示 CPU/内存使用的成本因子。值越高，需要的计算工作越多，因此安全性增加。"
 
 #: src/ch02-05-testnet-deployment.md:164
 msgid "**`p`**: Parallelization factor, affecting the computational complexity."
-msgstr ""
+msgstr "**`p`**：并行化因子，影响计算复杂度。"
 
 #: src/ch02-05-testnet-deployment.md:167
 msgid "**`r`**: Block size for the hash function, again affecting computational requirements."
-msgstr ""
+msgstr "**`r`**：哈希函数的块大小，再次影响计算需求。"
 
 #: src/ch02-05-testnet-deployment.md:170
 msgid "**`salt`**: A random value that is combined with the password to deter dictionary attacks."
-msgstr ""
+msgstr "**`salt`**：与密码结合使用的随机值，用于防止字典攻击。"
 
 #: src/ch02-05-testnet-deployment.md:173
 msgid ""
 "**`mac` (Message Authentication Code)**: This is a cryptographic code that ensures the integrity of the message (the encrypted private key in this case). It is generated using a hash of both the "
 "ciphertext and a portion of the derived key."
-msgstr ""
+msgstr "**`mac`（消息认证码）：这是一个加密码，用于确保消息的完整性（在本例中为加密的私钥）。它是使用密文和派生密钥的一部分的哈希生成的。"
 
 #: src/ch02-05-testnet-deployment.md:178
 msgid "Before to continue, we have to choose a rpc provider"
-msgstr ""
+msgstr "在继续之前，我们需要选择一个 rpc 提供者"
 
 #: src/ch02-05-testnet-deployment.md:180
-#, fuzzy
 msgid "Choosing an RPC Provider"
-msgstr "### 选择 RPC 提供商"
+msgstr "选择 RPC 提供商"
 
 #: src/ch02-05-testnet-deployment.md:182
 msgid "There are three main options for RPC providers, sorted by ease of use:"
@@ -2887,26 +2641,26 @@ msgid ""
 "**Infura or Alchemy**: A step up in complexity. You’ll need to set up an API key and choose an endpoint. For Infura, it would look like `https://starknet-sepolia.infura.io/v3/<API_KEY>`. Learn more in "
 "the [Infura documentation](https://docs.infura.io/networks/starknet/how-to/choose-a-network)."
 msgstr ""
+"**Infura 或 Alchemy**：复杂性更高的选择。您需要设置一个 API 密钥并选择一个端点。对于 Infura，它看起来像是 `https://starknet-sepolia.infura.io/v3/<API_KEY>`。在 [Infura 文档](https://docs.infura.io/"
+"networks/starknet/how-to/choose-a-network)中了解更多信息。"
 
 #: src/ch02-05-testnet-deployment.md:190
 msgid ""
 "**Your Own Node**: For those who want full control. It’s the most complex but offers the most freedom. Check out [Chapter 3 of the Starknet Book](./ch03-00-architecture.html#nodes) or [Kasar](https://"
 "www.kasar.io/) for setup guides."
-msgstr ""
+msgstr "**您自己的节点**：对于想要完全控制的人来说。这是最复杂的，但提供最大的自由度。查看 [Starknet book 的第 3 章](./ch03-00-architecture.html#nodes)或  [Kasar](https://www.kasar.io/) 以获取设置指南。"
 
 #: src/ch02-05-testnet-deployment.md:195
 msgid ""
 "**Free RPC vendor**: These 3 networks are eligible for free RPC vendors: mainet, goerli, sepolia. You can choose [Blast](https://blastapi.io/public-api/starknet) or [Nethermind](https://data.voyager."
 "online/)"
-msgstr ""
+msgstr "**免费 RPC 供应商**：mainet、goerli、sepolia 这三个网络也有免费的 RPC 供应商， [Blast](https://blastapi.io/public-api/starknet) 与 [Nethermind](https://data.voyager.online/)。"
 
 #: src/ch02-05-testnet-deployment.md:198
-#, fuzzy
 msgid "Creating an Account Descriptor"
-msgstr "### 创建账户描述符"
+msgstr "创建账户描述符"
 
 #: src/ch02-05-testnet-deployment.md:200
-#, fuzzy
 msgid ""
 "An Account Descriptor informs Starkli about your smart wallet’s unique features, such as its signing mechanism. You can generate this descriptor using Starkli’s `fetch` subcommand under the `account` "
 "command. The `fetch` subcommand takes your on-chain wallet address as input and generates the account descriptor file. The account descriptor file is a JSON file that contains the details of your "
